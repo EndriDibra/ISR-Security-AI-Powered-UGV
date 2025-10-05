@@ -1,0 +1,294 @@
+Round 1 - 2025-07-27 04:55:16
+loss: 1.1860
+accuracy: 0.5297
+
+Round 2 - 2025-07-27 06:28:59
+loss: 0.7571
+accuracy: 0.5972
+
+Round 3 - 2025-07-27 08:08:12
+loss: 1.1632
+accuracy: 0.5554
+
+Round 4 - 2025-07-27 09:47:27
+loss: 0.7721
+accuracy: 0.6507
+
+Round 5 - 2025-07-27 11:27:17
+loss: 0.5951
+accuracy: 0.7053
+
+Round 1 - 2025-07-27 23:00:33
+loss: 1.3412
+accuracy: 0.3855
+
+Round 2 - 2025-07-27 23:34:02
+loss: 0.6044
+accuracy: 0.7539
+
+Round 3 - 2025-07-27 23:59:17
+loss: 0.4665
+accuracy: 0.8197
+
+Round 4 - 2025-07-28 00:26:35
+loss: 0.4513
+accuracy: 0.8107
+
+Round 5 - 2025-07-28 00:54:49
+loss: 0.4634
+accuracy: 0.7827
+
+Round 6 - 2025-07-28 01:23:02
+loss: 0.4247
+accuracy: 0.8212
+
+Round 7 - 2025-07-28 01:51:36
+loss: 0.4011
+accuracy: 0.8527
+
+Round 8 - 2025-07-28 02:21:16
+loss: 0.3814
+accuracy: 0.8790
+
+Round 9 - 2025-07-28 02:52:24
+loss: 0.3624
+accuracy: 0.9083
+
+Round 10 - 2025-07-28 03:23:53
+loss: 0.3526
+accuracy: 0.9174
+
+Round 1 - 2025-08-04 06:41:20
+loss: 1.8372
+accuracy: 0.3256
+
+Round 2 - 2025-08-04 07:04:33
+loss: 0.7042
+accuracy: 0.7066
+
+Round 3 - 2025-08-04 07:27:41
+loss: 0.4711
+accuracy: 0.7910
+
+Round 4 - 2025-08-04 07:50:50
+loss: 0.4306
+accuracy: 0.8054
+
+Round 5 - 2025-08-04 08:14:02
+loss: 0.4273
+accuracy: 0.8104
+
+Round 6 - 2025-08-04 08:37:46
+loss: 0.4048
+accuracy: 0.8226
+
+Round 7 - 2025-08-04 09:00:58
+loss: 0.3915
+accuracy: 0.8340
+
+Round 8 - 2025-08-04 09:24:21
+loss: 0.3820
+accuracy: 0.8463
+
+
+Round 1 - 2025-08-05 01:32:37
+loss: 0.9695
+accuracy: 0.5888
+
+Round 2 - 2025-08-05 01:42:21
+loss: 0.7956
+accuracy: 0.6766
+
+Round 3 - 2025-08-05 01:51:59
+loss: 0.7773
+accuracy: 0.6702
+
+Round 4 - 2025-08-05 02:02:05
+loss: 0.7360
+accuracy: 0.7028
+
+Round 5 - 2025-08-05 02:11:33
+loss: 0.7796
+accuracy: 0.6294
+
+Round 6 - 2025-08-05 02:21:56
+loss: 1.0658
+accuracy: 0.6871
+
+Round 7 - 2025-08-05 02:32:14
+loss: 1.0610
+accuracy: 0.7119
+
+Round 8 - 2025-08-05 02:42:28
+loss: 0.9818
+accuracy: 0.7040
+
+Round 9 - 2025-08-05 02:52:44
+loss: 0.7608
+accuracy: 0.6748
+
+Round 10 - 2025-08-05 03:03:04
+loss: 0.7021
+accuracy: 0.7360
+
+Round 11 - 2025-08-05 03:13:22
+loss: 0.4198
+accuracy: 0.8449
+
+Round 12 - 2025-08-05 03:23:42
+loss: 0.4209
+accuracy: 0.8012
+
+Round 13 - 2025-08-05 03:34:01
+loss: 0.4695
+accuracy: 0.7928
+
+Round 14 - 2025-08-05 03:44:18
+loss: 0.2819
+accuracy: 0.9014
+
+Round 15 - 2025-08-05 03:54:54
+loss: 0.3614
+accuracy: 0.8394
+
+Round 16 - 2025-08-05 04:05:22
+loss: 0.2354
+accuracy: 0.9280
+
+Round 17 - 2025-08-05 04:15:39
+loss: 0.2490
+accuracy: 0.9040
+
+Round 18 - 2025-08-05 04:26:16
+loss: 0.1782
+accuracy: 0.9426
+
+Round 19 - 2025-08-05 04:36:32
+loss: 0.4960
+accuracy: 0.7389
+
+Round 20 - 2025-08-05 04:47:04
+loss: 0.2742
+accuracy: 0.9092
+
+
+Round 1 - 2025-08-06 15:52:46
+loss: 0.8767
+accuracy: 0.6315
+
+Round 2 - 2025-08-06 15:54:43
+loss: 0.6206
+accuracy: 0.7133
+
+Round 3 - 2025-08-06 15:56:46
+loss: 0.6430
+accuracy: 0.7383
+
+Round 4 - 2025-08-06 15:58:42
+loss: 0.6062
+accuracy: 0.7400
+
+Round 5 - 2025-08-06 16:00:28
+loss: 0.3663
+accuracy: 0.8615
+
+Round 6 - 2025-08-06 16:02:21
+loss: 0.3227
+accuracy: 0.8500
+
+Round 7 - 2025-08-06 16:04:37
+loss: 0.2061
+accuracy: 0.9257
+
+Round 1 - 2025-08-06 17:13:48
+loss: 0.9524
+accuracy: 0.5876
+
+Round 2 - 2025-08-06 17:15:36
+loss: 0.8688
+accuracy: 0.6228
+
+Round 3 - 2025-08-06 17:17:27
+loss: 0.5359
+accuracy: 0.7489
+
+Round 4 - 2025-08-06 17:19:19
+loss: 0.4554
+accuracy: 0.7862
+
+Round 5 - 2025-08-06 17:21:10
+loss: 0.4607
+accuracy: 0.7740
+
+Round 6 - 2025-08-06 17:23:14
+loss: 0.4042
+accuracy: 0.7995
+
+Round 7 - 2025-08-06 17:25:04
+loss: 0.3218
+accuracy: 0.8474
+
+Round 8 - 2025-08-06 17:26:55
+loss: 0.2674
+accuracy: 0.8758
+
+Round 9 - 2025-08-06 17:28:45
+loss: 0.2335
+accuracy: 0.9074
+
+Round 10 - 2025-08-06 17:30:36
+loss: 0.2350
+accuracy: 0.8998
+
+Round 11 - 2025-08-06 17:32:28
+loss: 0.1960
+accuracy: 0.9343
+
+Round 12 - 2025-08-06 17:34:29
+loss: 0.1861
+accuracy: 0.9312
+
+Round 1 - 2025-08-06 17:42:54
+loss: 0.6550
+accuracy: 0.6981
+
+Round 2 - 2025-08-06 17:44:49
+loss: 0.4040
+accuracy: 0.8117
+
+Round 3 - 2025-08-06 17:46:49
+loss: 0.3549
+accuracy: 0.8295
+
+Round 4 - 2025-08-06 17:48:46
+loss: 0.2847
+accuracy: 0.8868
+
+Round 5 - 2025-08-06 17:50:42
+loss: 0.2293
+accuracy: 0.9088
+
+Round 6 - 2025-08-06 17:52:39
+loss: 0.2173
+accuracy: 0.9284
+
+Round 7 - 2025-08-06 17:54:37
+loss: 0.2183
+accuracy: 0.9123
+
+Round 8 - 2025-08-06 17:56:33
+loss: 0.1982
+accuracy: 0.9327
+
+Round 9 - 2025-08-06 17:58:29
+loss: 0.2707
+accuracy: 0.8590
+
+Round 10 - 2025-08-06 18:00:25
+loss: 0.2119
+accuracy: 0.8893
+
+Round 11 - 2025-08-06 18:02:39
+loss: 0.8220
+accuracy: 0.7003
+

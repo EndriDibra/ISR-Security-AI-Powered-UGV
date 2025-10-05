@@ -1,0 +1,361 @@
+<!-- Author: Endri Dibra --> 
+<!-- Bachelor Thesis: Smart Unmanned Ground Vehicle -->
+
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UGV Sensor Dashboard</title>
+
+  <!-- Importing Chart.js for rendering charts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Embedded CSS for styling the dashboard UI -->
+  <style>
+  /* Using Google Fonts for cleaner UI typography */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+  /* Global body styles with gradient background */
+  body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0; padding: 0;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #eee;
+    min-height: 100vh;
+  }
+
+  /* Header style */
+  h2 {
+    text-align: center;
+    margin: 30px 0 20px;
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: #f0f0f0;
+    text-shadow: 0 0 10px rgba(255,255,255,0.3);
+  }
+
+  /* Reusable container for each chart */
+  .chart-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto 40px;
+    background: rgba(255, 255, 255, 0.1); /* translucent white */
+    backdrop-filter: blur(12px); /* frosted glass effect */
+    padding: 25px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+
+  /* Text below buttons showing live sensor values */
+  .stats {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 0;
+  }
+
+  /* Status message for anomaly detection */
+  .status {
+    font-weight: 700;
+    color: #4caf50;
+    text-shadow: 0 0 6px #1b5e20;
+    margin-top: 8px;
+    text-align: center;
+  }
+
+  /* Highlighting status in red when anomaly is detected */
+  .status.alert {
+    color: #ff5252;
+    text-shadow: 0 0 8px #ff1744;
+  }
+
+  /* Controls section: pause button + CSV download */
+  #controls {
+    text-align: center;
+    margin: 15px 0 30px;
+  }
+
+  /* Styling both buttons and download links */
+  button, .download {
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 12px 28px;
+    margin: 0 12px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  }
+
+  /* Pause button styling */
+  button.pause {
+    background: #ff3d3d;
+    color: white;
+    text-shadow: 0 0 5px #ff0000;
+  }
+
+  button.pause:hover {
+    background: #ff1a1a;
+    box-shadow: 0 6px 20px rgba(255,0,0,0.6);
+  }
+
+  /* CSV Download button styling */
+  a.download {
+    background: #00c853;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a.download:hover {
+    background: #00e676;
+    box-shadow: 0 6px 22px rgba(0, 230, 118, 0.8);
+  }
+
+  /* Responsive behavior for small screens */
+  @media screen and (max-width: 600px) {
+    .chart-container {
+      padding: 15px 20px;
+    }
+    button, .download {
+      width: 100%;
+      margin: 8px 0;
+      border-radius: 40px;
+    }
+  }
+
+  /* Login screen overlay covering the entire viewport */
+  .login-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  /* Login box inside overlay */
+  .login-box {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    padding: 30px 35px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+    text-align: center;
+    width: 320px;
+    max-width: 90vw;
+    color: #fff;
+  }
+
+  .login-box h3 {
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+
+  /* Styling for username/password inputs */
+  .login-box input {
+    margin: 15px 0;
+    padding: 12px 15px;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    background: rgba(255,255,255,0.9);
+    color: #222;
+  }
+
+  .login-box input:focus {
+    box-shadow: 0 0 8px #00e676;
+  }
+
+  .login-box button {
+    margin-top: 20px;
+    width: 100%;
+    background: #00c853;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 30px;
+  }
+
+  .login-box button:hover {
+    background: #00e676;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Login overlay appears first, blocking dashboard -->
+<div class="login-overlay" id="loginOverlay">
+  <div class="login-box">
+    <h3>Login</h3>
+    <input type="text" id="username" placeholder="Username"><br>
+    <input type="password" id="password" placeholder="Password"><br>
+    <button onclick="login()">Login</button>
+  </div>
+</div>
+
+<!-- Title -->
+<h2>UGV Real-Time Sensor Dashboard</h2>
+
+<!-- Controls for toggling live data and downloading CSV -->
+<div id="controls">
+  <button class="pause" onclick="toggleLive()">Pause</button>
+  <a href="/csv_data" class="download" download>Download CSV</a>
+</div>
+
+<!-- Live stats -->
+<div class="stats" id="latestValues"></div>
+<div class="stats status" id="anomalyStatus"></div>
+
+<!-- Chart canvases -->
+<div class="chart-container"><canvas id="tempChart"></canvas></div>
+<div class="chart-container"><canvas id="humidityChart"></canvas></div>
+<div class="chart-container"><canvas id="gasChart"></canvas></div>
+<div class="chart-container"><canvas id="anomalyChart"></canvas></div>
+
+<!-- Alert sound for anomalies -->
+<audio id="alertSound" src="https://actions.google.com/sounds/v1/alarms/beep_short.ogg" preload="auto"></audio>
+
+<script>
+  let isLive = true; // Tracks whether live data is being fetched
+
+  // Chart.js context setup
+  const tempChartCtx = document.getElementById('tempChart').getContext('2d');
+  const humidityChartCtx = document.getElementById('humidityChart').getContext('2d');
+  const gasChartCtx = document.getElementById('gasChart').getContext('2d');
+  const anomalyChartCtx = document.getElementById('anomalyChart').getContext('2d');
+  const alertSound = document.getElementById('alertSound');
+
+  // Generic chart creation function
+  const createChart = (ctx, label, borderColor, yOptions = {}) => new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: [],
+      datasets: [{
+        label,
+        data: [],
+        borderColor,
+        tension: 0.3,
+        fill: false,
+        pointRadius: 2,
+        pointBackgroundColor: borderColor,
+        borderWidth: 2
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        x: {
+          display: false,
+          ticks: { color: 'white' },
+          grid: { color: 'rgba(255,255,255,0.1)' }
+        },
+        y: {
+          beginAtZero: true,
+          ticks: { color: 'white', ...((yOptions.ticks) ? yOptions.ticks : {}) },
+          grid: { color: 'rgba(255,255,255,0.1)' },
+          min: yOptions.min,
+          max: yOptions.max,
+          stepSize: yOptions.stepSize
+        }
+      },
+      plugins: {
+        legend: { labels: { color: 'white' } },
+        tooltip: {
+          mode: 'nearest',
+          intersect: false,
+          titleColor: 'white',
+          bodyColor: 'white',
+          backgroundColor: 'rgba(0,0,0,0.7)'
+        }
+      }
+    }
+  });
+
+  // Creating each chart using Chart.js
+  const tempChart = createChart(tempChartCtx, 'Temperature (°C)', 'red');
+  const humidityChart = createChart(humidityChartCtx, 'Humidity (%)', 'blue');
+  const gasChart = createChart(gasChartCtx, 'Gas Level', 'orange');
+  const anomalyChart = createChart(anomalyChartCtx, 'Anomaly (1 = Yes)', 'purple', { min: 0, max: 1, ticks: { stepSize: 0.1 } });
+
+  // Pause/resume data fetching
+  function toggleLive() {
+    isLive = !isLive;
+    document.querySelector('.pause').textContent = isLive ? 'Pause' : 'Resume';
+  }
+
+  // Simple hardcoded login
+  function login() {
+    const user = document.getElementById('username').value;
+    const pass = document.getElementById('password').value;
+    if (user === "admin" && pass === "ugv123") {
+      document.getElementById('loginOverlay').style.display = 'none';
+    } else {
+      alert("Invalid credentials");
+    }
+  }
+
+  // Poll data from backend every second
+  async function fetchData() {
+    if (!isLive) return;
+    try {
+      const res = await fetch('/receiveData');
+      if (res.ok) {
+        const data = await res.json();
+        const now = new Date().toLocaleTimeString();
+
+        // Displaying latest sensor values
+        document.getElementById('latestValues').textContent =
+          `Temperature: ${data.Temperature} °C | Humidity: ${data.Humidity}% | Gas: ${data.Gas}`;
+
+        // Anomaly detection UI update
+        const anomalyElem = document.getElementById('anomalyStatus');
+        if (data.Anomaly === 1) {
+          anomalyElem.textContent = '⚠️ Anomaly Detected!';
+          anomalyElem.className = 'status alert';
+          alertSound.play();
+          alert("🚨 Anomaly Detected!");
+        } else {
+          anomalyElem.textContent = '✅ Normal';
+          anomalyElem.className = 'status';
+        }
+
+        // Maintaining sliding window of 20 data points
+        [tempChart, humidityChart, gasChart, anomalyChart].forEach(chart => {
+          if (chart.data.labels.length > 20) {
+            chart.data.labels.shift();
+            chart.data.datasets[0].data.shift();
+          }
+        });
+
+        // Appending new data
+        tempChart.data.labels.push(now);
+        humidityChart.data.labels.push(now);
+        gasChart.data.labels.push(now);
+        anomalyChart.data.labels.push(now);
+
+        tempChart.data.datasets[0].data.push(data.Temperature);
+        humidityChart.data.datasets[0].data.push(data.Humidity);
+        gasChart.data.datasets[0].data.push(data.Gas);
+        anomalyChart.data.datasets[0].data.push(data.Anomaly || 0);
+
+        // Refreshing chart views
+        [tempChart, humidityChart, gasChart, anomalyChart].forEach(chart => chart.update());
+      }
+    } catch (err) {
+      console.error("Failed to fetch data:", err);
+    }
+  }
+
+  // Periodic data fetch every second
+  setInterval(fetchData, 1000);
+</script>
+</body>
+</html>

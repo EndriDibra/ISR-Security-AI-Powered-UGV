@@ -1,0 +1,6 @@
+2025-08-08 11:43:14 - Fall detected
+2025-08-08 11:43:39 - Fall detected
+2025-08-21 05:40:11 - Fall detected
+2025-08-21 05:40:39 - Fall detected
+2025-08-21 05:40:46 - Fall detected
+2025-08-21 05:41:35 - Fall detected

@@ -1,0 +1,4 @@
+train: C:/Users/User/Documents/AI_Robotics Projects/Industrial_UGV/PotholeDetection/dataset/train/images
+val: C:/Users/User/Documents/AI_Robotics Projects/Industrial_UGV/PotholeDetection/dataset/validation/images
+nc: 1
+names: ['pothole']

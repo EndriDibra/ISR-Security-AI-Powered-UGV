@@ -1,0 +1,6 @@
+train: C:/Users/User/Documents/AI_Robotics Projects/Industrial_UGV/FireDetection/dataset/train/images
+test:  C:/Users/User/Documents/AI_Robotics Projects/Industrial_UGV/FireDetection/dataset/test/images
+val:   C:/Users/User/Documents/AI_Robotics Projects/Industrial_UGV/FireDetection/dataset/validation/images
+
+nc: 1
+names: ['fire']

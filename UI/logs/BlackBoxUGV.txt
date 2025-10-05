@@ -1,0 +1,457 @@
+[2025-08-18 16:33:53] [BLACKBOX][00:00:31] Distance: 63
+[2025-08-18 16:33:54] [BLACKBOX][00:00:31] Slope: -1.00 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:33:54] [BLACKBOX][00:00:31] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:33:54] [BLACKBOX][00:00:32] Distance: 63
+[2025-08-18 16:33:54] [BLACKBOX][00:00:32] Slope: -0.93 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:33:55] [BLACKBOX][00:00:32] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:33:55] [BLACKBOX][00:00:33] Distance: 999
+[2025-08-18 16:33:55] [BLACKBOX][00:00:33] Slope: -0.91 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:33:55] [BLACKBOX][00:00:34] Distance: 65
+[2025-08-18 16:33:55] [BLACKBOX][00:00:34] Slope: -1.04 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:33:56] [BLACKBOX][00:00:35] Distance: 64
+[2025-08-18 16:33:56] [BLACKBOX][00:00:35] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:33:56] [BLACKBOX][00:00:35] Slope: -0.90 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:33:56] [BLACKBOX][00:00:36] Distance: 999
+[2025-08-18 16:33:57] [BLACKBOX][00:00:36] Servo moving up started
+[2025-08-18 16:33:57] [BLACKBOX][00:00:36] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:33:57] [BLACKBOX][00:00:37] Slope: -1.09 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:33:57] [BLACKBOX][00:00:37] Servo moving up stopped
+[2025-08-18 16:33:57] [BLACKBOX][00:00:37] Distance: 999
+[2025-08-18 16:33:57] [BLACKBOX][00:00:37] Servo moving down started
+[2025-08-18 16:33:58] [BLACKBOX][00:00:38] Slope: -0.78 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:33:58] [BLACKBOX][00:00:38] Distance: 65
+[2025-08-18 16:33:58] [BLACKBOX][00:00:38] Servo moving down stopped
+[2025-08-18 16:33:58] [BLACKBOX][00:00:38] Servo moving down started
+[2025-08-18 16:33:58] [BLACKBOX][00:00:39] Slope: -0.98 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:33:58] [BLACKBOX][00:00:39] Servo moving down stopped
+[2025-08-18 16:33:58] [BLACKBOX][00:00:39] Distance: 65
+[2025-08-18 16:33:59] [BLACKBOX][00:00:39] Servo moving down started
+[2025-08-18 16:33:59] [BLACKBOX][00:00:40] Servo moving down stopped
+[2025-08-18 16:33:59] [BLACKBOX][00:00:40] Slope: -0.87 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:00] [BLACKBOX][00:00:40] Distance: 66
+[2025-08-18 16:34:00] [BLACKBOX][00:00:40] Servo moving down started
+[2025-08-18 16:34:00] [BLACKBOX][00:00:41] Slope: -0.94 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:00] [BLACKBOX][00:00:41] Distance: 68
+[2025-08-18 16:34:00] [BLACKBOX][00:00:41] Servo moving down stopped
+[2025-08-18 16:34:00] [BLACKBOX][00:00:41] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:01] [BLACKBOX][00:00:41] Servo moving down started
+[2025-08-18 16:34:01] [BLACKBOX][00:00:42] Servo moving down stopped
+[2025-08-18 16:34:01] [BLACKBOX][00:00:42] Slope: -0.97 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:01] [BLACKBOX][00:00:42] Distance: 999
+[2025-08-18 16:34:02] [BLACKBOX][00:00:43] Slope: -0.97 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:02] [BLACKBOX][00:00:43] Distance: 66
+[2025-08-18 16:34:02] [BLACKBOX][00:00:44] Slope: -0.88 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:02] [BLACKBOX][00:00:44] Distance: 167
+[2025-08-18 16:34:02] [BLACKBOX][00:00:44] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:03] [BLACKBOX][00:00:45] Slope: -0.94 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:03] [BLACKBOX][00:00:45] Distance: 75
+[2025-08-18 16:34:03] [BLACKBOX][00:00:45] Servo moving up started
+[2025-08-18 16:34:03] [BLACKBOX][00:00:46] Servo moving up stopped
+[2025-08-18 16:34:04] [BLACKBOX][00:00:46] Slope: -1.02 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:04] [BLACKBOX][00:00:46] Distance: 65
+[2025-08-18 16:34:04] [BLACKBOX][00:00:47] Servo moving up started
+[2025-08-18 16:34:04] [BLACKBOX][00:00:47] Slope: -0.96 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:04] [BLACKBOX][00:00:47] Distance: 66
+[2025-08-18 16:34:04] [BLACKBOX][00:00:47] Servo moving up stopped
+[2025-08-18 16:34:05] [BLACKBOX][00:00:48] Servo moving up started
+[2025-08-18 16:34:05] [BLACKBOX][00:00:48] Slope: -0.91 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:05] [BLACKBOX][00:00:48] Distance: 73
+[2025-08-18 16:34:05] [BLACKBOX][00:00:48] Servo moving up stopped
+[2025-08-18 16:34:05] [BLACKBOX][00:00:48] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:06] [BLACKBOX][00:00:48] Servo moving down started
+[2025-08-18 16:34:06] [BLACKBOX][00:00:49] Servo moving down stopped
+[2025-08-18 16:34:06] [BLACKBOX][00:00:49] Slope: -0.94 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:06] [BLACKBOX][00:00:49] Distance: 72
+[2025-08-18 16:34:07] [BLACKBOX][00:00:49] Servo moving down started
+[2025-08-18 16:34:07] [BLACKBOX][00:00:49] Servo moving down stopped
+[2025-08-18 16:34:07] [BLACKBOX][00:00:50] POSTURE: ❓ Unclear posture yet.
+[2025-08-18 16:34:07] [BLACKBOX][00:00:50] POSTURE: 🟢 Robot upright
+[2025-08-18 16:34:08] [BLACKBOX][00:00:50] Servo moving down started
+[2025-08-18 16:34:08] [BLACKBOX][00:00:50] Slope: -0.83 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:08] [BLACKBOX][00:00:50] Servo moving down stopped
+[2025-08-18 16:34:08] [BLACKBOX][00:00:50] Distance: 66
+[2025-08-18 16:34:08] [BLACKBOX][00:00:51] Servo moving down started
+[2025-08-18 16:34:09] [BLACKBOX][00:00:51] Servo moving down stopped
+[2025-08-18 16:34:09] [BLACKBOX][00:00:51] Slope: -0.89 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:09] [BLACKBOX][00:00:51] Distance: 64
+[2025-08-18 16:34:09] [BLACKBOX][00:00:51] Servo moving up started
+[2025-08-18 16:34:09] [BLACKBOX][00:00:51] Servo moving up stopped
+[2025-08-18 16:34:09] [BLACKBOX][00:00:52] Servo moving up started
+[2025-08-18 16:34:10] [BLACKBOX][00:00:52] Servo moving up stopped
+[2025-08-18 16:34:10] [BLACKBOX][00:00:52] Slope: -0.85 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:10] [BLACKBOX][00:00:52] Distance: 64
+[2025-08-18 16:34:10] [BLACKBOX][00:00:52] Servo moving up started
+[2025-08-18 16:34:10] [BLACKBOX][00:00:53] Servo moving up stopped
+[2025-08-18 16:34:10] [BLACKBOX][00:00:53] Slope: -0.93 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:10] [BLACKBOX][00:00:53] Distance: 65
+[2025-08-18 16:34:11] [BLACKBOX][00:00:53] Servo moving down started
+[2025-08-18 16:34:11] [BLACKBOX][00:00:54] Servo moving down stopped
+[2025-08-18 16:34:11] [BLACKBOX][00:00:54] Slope: -0.99 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:11] [BLACKBOX][00:00:54] Distance: 167
+[2025-08-18 16:34:12] [BLACKBOX][00:00:55] DEBUG: Command received: servo_ustart
+[2025-08-18 16:34:12] [BLACKBOX][00:00:55] Invalid command! Try again.
+[2025-08-18 16:34:12] [BLACKBOX][00:00:55] Slope: -0.92 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:12] [BLACKBOX][00:00:55] Distance: 66
+[2025-08-18 16:34:13] [BLACKBOX][00:00:55] Servo moving up stopped
+[2025-08-18 16:34:13] [BLACKBOX][00:00:56] Slope: -1.10 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:13] [BLACKBOX][00:00:56] Distance: 67
+[2025-08-18 16:34:13] [BLACKBOX][00:00:57] Servo moving up started
+[2025-08-18 16:34:13] [BLACKBOX][00:00:57] Slope: -0.93 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:13] [BLACKBOX][00:00:57] Distance: 67
+[2025-08-18 16:34:14] [BLACKBOX][00:00:57] Servo moving up stopped
+[2025-08-18 16:34:14] [BLACKBOX][00:00:57] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:14] [BLACKBOX][00:00:58] Servo moving up started
+[2025-08-18 16:34:14] [BLACKBOX][00:00:58] Servo moving up stopped
+[2025-08-18 16:34:14] [BLACKBOX][00:00:58] Slope: -0.93 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:15] [BLACKBOX][00:00:58] Distance: 64
+[2025-08-18 16:34:15] [BLACKBOX][00:00:59] Servo moving up started
+[2025-08-18 16:34:15] [BLACKBOX][00:00:59] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:15] [BLACKBOX][00:00:59] Servo moving up stopped
+[2025-08-18 16:34:15] [BLACKBOX][00:00:59] Slope: -1.00 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:15] [BLACKBOX][00:00:59] Distance: 64
+[2025-08-18 16:34:16] [BLACKBOX][00:00:59] Servo moving up started
+[2025-08-18 16:34:16] [BLACKBOX][00:00:00] Slope: -0.88 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:16] [BLACKBOX][00:00:00] Distance: 166
+[2025-08-18 16:34:17] [BLACKBOX][00:00:00] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:17] [BLACKBOX][00:00:00] Servo moving up stopped
+[2025-08-18 16:34:17] [BLACKBOX][00:00:01] Servo moving up started
+[2025-08-18 16:34:17] [BLACKBOX][00:00:01] Servo moving up stopped
+[2025-08-18 16:34:18] [BLACKBOX][00:00:01] Slope: -0.94 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:18] [BLACKBOX][00:00:01] Distance: 999
+[2025-08-18 16:34:18] [BLACKBOX][00:00:01] Servo moving down started
+[2025-08-18 16:34:18] [BLACKBOX][00:00:02] Slope: -1.13 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:18] [BLACKBOX][00:00:02] Distance: 65
+[2025-08-18 16:34:19] [BLACKBOX][00:00:03] Slope: -1.00 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:19] [BLACKBOX][00:00:03] Distance: 167
+[2025-08-18 16:34:19] [BLACKBOX][00:00:04] Servo moving down stopped
+[2025-08-18 16:34:19] [BLACKBOX][00:00:04] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:19] [BLACKBOX][00:00:04] Servo moving up started
+[2025-08-18 16:34:19] [BLACKBOX][00:00:04] Slope: -0.96 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:20] [BLACKBOX][00:00:04] Distance: 999
+[2025-08-18 16:34:20] [BLACKBOX][00:00:05] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:21] [BLACKBOX][00:00:05] Slope: -1.04 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:21] [BLACKBOX][00:00:05] Distance: 66
+[2025-08-18 16:34:21] [BLACKBOX][00:00:06] Servo moving up stopped
+[2025-08-18 16:34:21] [BLACKBOX][00:00:06] Slope: -0.89 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:21] [BLACKBOX][00:00:06] Distance: 66
+[2025-08-18 16:34:22] [BLACKBOX][00:00:07] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:22] [BLACKBOX][00:00:07] Servo moving down started
+[2025-08-18 16:34:22] [BLACKBOX][00:00:07] Slope: -0.96 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:22] [BLACKBOX][00:00:08] Distance: 66
+[2025-08-18 16:34:23] [BLACKBOX][00:00:08] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:23] [BLACKBOX][00:00:08] Slope: -1.11 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:24] [BLACKBOX][00:00:09] Distance: 166
+[2025-08-18 16:34:24] [BLACKBOX][00:00:09] Servo moving down stopped
+[2025-08-18 16:34:24] [BLACKBOX][00:00:10] Slope: -0.93 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:25] [BLACKBOX][00:00:10] Distance: 64
+[2025-08-18 16:34:25] [BLACKBOX][00:00:10] Servo moving down started
+[2025-08-18 16:34:25] [BLACKBOX][00:00:10] Servo moving down stopped
+[2025-08-18 16:34:26] [BLACKBOX][00:00:11] Slope: -0.92 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:26] [BLACKBOX][00:00:11] Distance: 64
+[2025-08-18 16:34:26] [BLACKBOX][00:00:11] Servo moving up started
+[2025-08-18 16:34:27] [BLACKBOX][00:00:12] Slope: -1.18 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:27] [BLACKBOX][00:00:12] Distance: 68
+[2025-08-18 16:34:27] [BLACKBOX][00:00:12] Servo moving up stopped
+[2025-08-18 16:34:27] [BLACKBOX][00:00:12] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:27] [BLACKBOX][00:00:12] Servo moving up started
+[2025-08-18 16:34:27] [BLACKBOX][00:00:12] Servo moving up stopped
+[2025-08-18 16:34:27] [BLACKBOX][00:00:13] Slope: -0.92 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:28] [BLACKBOX][00:00:13] Distance: 65
+[2025-08-18 16:34:28] [BLACKBOX][00:00:13] Servo moving down started
+[2025-08-18 16:34:28] [BLACKBOX][00:00:13] Servo moving down stopped
+[2025-08-18 16:34:28] [BLACKBOX][00:00:13] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:29] [BLACKBOX][00:00:14] Slope: -0.91 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:29] [BLACKBOX][00:00:14] Distance: 999
+[2025-08-18 16:34:29] [BLACKBOX][00:00:14] Servo 2 moving up started
+[2025-08-18 16:34:29] [BLACKBOX][00:00:15] Servo 2 moving up stopped
+[2025-08-18 16:34:30] [BLACKBOX][00:00:15] Slope: -0.96 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:30] [BLACKBOX][00:00:15] Distance: 66
+[2025-08-18 16:34:30] [BLACKBOX][00:00:15] Servo 2 moving up started
+[2025-08-18 16:34:30] [BLACKBOX][00:00:15] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:30] [BLACKBOX][00:00:15] Servo 2 moving up stopped
+[2025-08-18 16:34:31] [BLACKBOX][00:00:15] Servo 2 moving down started
+[2025-08-18 16:34:31] [BLACKBOX][00:00:15] Servo 2 moving down stopped
+[2025-08-18 16:34:31] [BLACKBOX][00:00:16] Slope: -0.97 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:31] [BLACKBOX][00:00:16] Servo 2 moving down started
+[2025-08-18 16:34:32] [BLACKBOX][00:00:16] Distance: 65
+[2025-08-18 16:34:32] [BLACKBOX][00:00:16] Servo 2 moving down stopped
+[2025-08-18 16:34:32] [BLACKBOX][00:00:16] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:32] [BLACKBOX][00:00:17] Servo 2 moving down started
+[2025-08-18 16:34:32] [BLACKBOX][00:00:17] Servo 2 moving down stopped
+[2025-08-18 16:34:32] [BLACKBOX][00:00:17] Slope: -1.08 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:33] [BLACKBOX][00:00:17] Distance: 65
+[2025-08-18 16:34:33] [BLACKBOX][00:00:17] Servo 2 moving up started
+[2025-08-18 16:34:33] [BLACKBOX][00:00:18] Slope: -1.07 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:33] [BLACKBOX][00:00:18] Servo 2 moving up stopped
+[2025-08-18 16:34:33] [BLACKBOX][00:00:18] Distance: 64
+[2025-08-18 16:34:33] [BLACKBOX][00:00:18] Servo 2 moving up started
+[2025-08-18 16:34:34] [BLACKBOX][00:00:19] Slope: -0.82 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:34] [BLACKBOX][00:00:19] Distance: 68
+[2025-08-18 16:34:34] [BLACKBOX][00:00:19] Servo 2 moving up stopped
+[2025-08-18 16:34:34] [BLACKBOX][00:00:19] Servo 2 moving down started
+[2025-08-18 16:34:34] [BLACKBOX][00:00:19] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:35] [BLACKBOX][00:00:20] Slope: -0.90 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:35] [BLACKBOX][00:00:20] Servo 2 moving down stopped
+[2025-08-18 16:34:35] [BLACKBOX][00:00:20] Distance: 66
+[2025-08-18 16:34:36] [BLACKBOX][00:00:20] Servo 2 moving down started
+[2025-08-18 16:34:36] [BLACKBOX][00:00:21] Servo 2 moving down stopped
+[2025-08-18 16:34:36] [BLACKBOX][00:00:21] Slope: -0.92 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:37] [BLACKBOX][00:00:21] Distance: 65
+[2025-08-18 16:34:37] [BLACKBOX][00:00:21] Servo 2 moving up started
+[2025-08-18 16:34:37] [BLACKBOX][00:00:21] Servo 2 moving up stopped
+[2025-08-18 16:34:37] [BLACKBOX][00:00:22] Slope: -0.98 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:37] [BLACKBOX][00:00:22] Distance: 64
+[2025-08-18 16:34:37] [BLACKBOX][00:00:22] Servo 2 moving down started
+[2025-08-18 16:34:38] [BLACKBOX][00:00:23] Servo 2 moving down stopped
+[2025-08-18 16:34:38] [BLACKBOX][00:00:23] Slope: -0.84 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:38] [BLACKBOX][00:00:23] Distance: 65
+[2025-08-18 16:34:39] [BLACKBOX][00:00:24] Servo 2 moving up started
+[2025-08-18 16:34:39] [BLACKBOX][00:00:24] Slope: -0.98 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:39] [BLACKBOX][00:00:24] Distance: 65
+[2025-08-18 16:34:40] [BLACKBOX][00:00:25] Slope: -0.97 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:41] [BLACKBOX][00:00:25] Distance: 65
+[2025-08-18 16:34:41] [BLACKBOX][00:00:25] Servo 2 moving up stopped
+[2025-08-18 16:34:41] [BLACKBOX][00:00:26] Slope: -0.85 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:41] [BLACKBOX][00:00:26] Distance: 65
+[2025-08-18 16:34:41] [BLACKBOX][00:00:26] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:42] [BLACKBOX][00:00:27] Slope: -0.96 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:42] [BLACKBOX][00:00:27] Distance: 66
+[2025-08-18 16:34:42] [BLACKBOX][00:00:27] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:43] [BLACKBOX][00:00:28] Servo moving down started
+[2025-08-18 16:34:43] [BLACKBOX][00:00:28] Slope: -1.03 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:43] [BLACKBOX][00:00:28] Distance: 999
+[2025-08-18 16:34:43] [BLACKBOX][00:00:29] Servo moving down stopped
+[2025-08-18 16:34:44] [BLACKBOX][00:00:29] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:44] [BLACKBOX][00:00:29] Servo moving up started
+[2025-08-18 16:34:44] [BLACKBOX][00:00:29] Slope: -0.88 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:44] [BLACKBOX][00:00:29] Distance: 64
+[2025-08-18 16:34:45] [BLACKBOX][00:00:30] Servo moving up stopped
+[2025-08-18 16:34:45] [BLACKBOX][00:00:30] Servo moving down started
+[2025-08-18 16:34:45] [BLACKBOX][00:00:30] Slope: -1.05 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:46] [BLACKBOX][00:00:30] Distance: 96
+[2025-08-18 16:34:46] [BLACKBOX][00:00:31] Servo moving down stopped
+[2025-08-18 16:34:46] [BLACKBOX][00:00:31] Slope: -0.97 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:46] [BLACKBOX][00:00:31] Distance: 65
+[2025-08-18 16:34:47] [BLACKBOX][00:00:32] Servo 2 moving down started
+[2025-08-18 16:34:47] [BLACKBOX][00:00:32] Servo 2 moving down stopped
+[2025-08-18 16:34:47] [BLACKBOX][00:00:32] Slope: -0.81 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:47] [BLACKBOX][00:00:32] Distance: 65
+[2025-08-18 16:34:48] [BLACKBOX][00:00:32] Servo 2 moving up started
+[2025-08-18 16:34:48] [BLACKBOX][00:00:33] Servo 2 moving up stopped
+[2025-08-18 16:34:48] [BLACKBOX][00:00:33] Slope: -1.01 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:48] [BLACKBOX][00:00:33] Distance: 64
+[2025-08-18 16:34:49] [BLACKBOX][00:00:34] Servo 2 moving down started
+[2025-08-18 16:34:49] [BLACKBOX][00:00:34] Servo 2 moving down stopped
+[2025-08-18 16:34:49] [BLACKBOX][00:00:34] Slope: -0.97 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:49] [BLACKBOX][00:00:34] Distance: 86
+[2025-08-18 16:34:50] [BLACKBOX][00:00:35] Servo 2 moving up started
+[2025-08-18 16:34:50] [BLACKBOX][00:00:35] Servo 2 moving up stopped
+[2025-08-18 16:34:51] [BLACKBOX][00:00:35] Slope: -1.21 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:51] [BLACKBOX][00:00:35] Distance: 67
+[2025-08-18 16:34:51] [BLACKBOX][00:00:35] Servo 2 moving down started
+[2025-08-18 16:34:51] [BLACKBOX][00:00:36] Servo 2 moving down stopped
+[2025-08-18 16:34:52] [BLACKBOX][00:00:36] POSTURE: ❓ Unclear posture yet.
+[2025-08-18 16:34:52] [BLACKBOX][00:00:36] Slope: -8.58 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:52] [BLACKBOX][00:00:36] Distance: 65
+[2025-08-18 16:34:52] [BLACKBOX][00:00:36] POSTURE: 🟢 Robot upright
+[2025-08-18 16:34:52] [BLACKBOX][00:00:37] Slope: -1.02 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:52] [BLACKBOX][00:00:37] Distance: 64
+[2025-08-18 16:34:53] [BLACKBOX][00:00:38] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:53] [BLACKBOX][00:00:38] Slope: -0.91 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:53] [BLACKBOX][00:00:38] Distance: 66
+[2025-08-18 16:34:54] [BLACKBOX][00:00:39] Slope: -0.90 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:55] [BLACKBOX][00:00:39] Distance: 65
+[2025-08-18 16:34:55] [BLACKBOX][00:00:40] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:56] [BLACKBOX][00:00:40] Slope: -0.89 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:56] [BLACKBOX][00:00:40] Servo 2 moving down started
+[2025-08-18 16:34:56] [BLACKBOX][00:00:40] Distance: 69
+[2025-08-18 16:34:56] [BLACKBOX][00:00:41] Servo 2 moving down stopped
+[2025-08-18 16:34:56] [BLACKBOX][00:00:41] Slope: -0.51 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:57] [BLACKBOX][00:00:41] Distance: 53
+[2025-08-18 16:34:57] [BLACKBOX][00:00:41] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:34:57] [BLACKBOX][00:00:42] Servo 2 moving up started
+[2025-08-18 16:34:57] [BLACKBOX][00:00:42] Servo 2 moving up stopped
+[2025-08-18 16:34:57] [BLACKBOX][00:00:42] Servo 2 moving up started
+[2025-08-18 16:34:58] [BLACKBOX][00:00:42] Slope: -1.00 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:58] [BLACKBOX][00:00:42] Distance: 65
+[2025-08-18 16:34:58] [BLACKBOX][00:00:43] Servo 2 moving up stopped
+[2025-08-18 16:34:58] [BLACKBOX][00:00:43] Servo 2 moving down started
+[2025-08-18 16:34:59] [BLACKBOX][00:00:43] Slope: -0.83 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:34:59] [BLACKBOX][00:00:43] Distance: 65
+[2025-08-18 16:34:59] [BLACKBOX][00:00:44] Servo 2 moving down stopped
+[2025-08-18 16:34:59] [BLACKBOX][00:00:44] Servo 2 moving up started
+[2025-08-18 16:35:00] [BLACKBOX][00:00:44] Slope: -0.90 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:00] [BLACKBOX][00:00:44] Distance: 65
+[2025-08-18 16:35:00] [BLACKBOX][00:00:45] Servo 2 moving up stopped
+[2025-08-18 16:35:01] [BLACKBOX][00:00:45] Servo 2 moving down started
+[2025-08-18 16:35:01] [BLACKBOX][00:00:45] Slope: -0.75 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:01] [BLACKBOX][00:00:45] Distance: 66
+[2025-08-18 16:35:01] [BLACKBOX][00:00:46] Servo 2 moving down stopped
+[2025-08-18 16:35:02] [BLACKBOX][00:00:46] Servo 2 moving up started
+[2025-08-18 16:35:02] [BLACKBOX][00:00:46] Slope: -1.17 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:02] [BLACKBOX][00:00:47] Distance: 65
+[2025-08-18 16:35:02] [BLACKBOX][00:00:47] Servo 2 moving up stopped
+[2025-08-18 16:35:03] [BLACKBOX][00:00:48] Slope: -1.03 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:03] [BLACKBOX][00:00:48] Distance: 68
+[2025-08-18 16:35:04] [BLACKBOX][00:00:49] Slope: -0.94 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:04] [BLACKBOX][00:00:49] Distance: 65
+[2025-08-18 16:35:04] [BLACKBOX][00:00:49] Servo moving up started
+[2025-08-18 16:35:05] [BLACKBOX][00:00:50] Servo moving up stopped
+[2025-08-18 16:35:05] [BLACKBOX][00:00:50] Slope: -1.01 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:05] [BLACKBOX][00:00:50] Distance: 65
+[2025-08-18 16:35:05] [BLACKBOX][00:00:50] Servo moving down started
+[2025-08-18 16:35:06] [BLACKBOX][00:00:50] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:06] [BLACKBOX][00:00:51] Slope: -0.92 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:07] [BLACKBOX][00:00:51] Distance: 65
+[2025-08-18 16:35:07] [BLACKBOX][00:00:51] Servo moving down stopped
+[2025-08-18 16:35:07] [BLACKBOX][00:00:51] Servo moving up started
+[2025-08-18 16:35:07] [BLACKBOX][00:00:52] Slope: -0.85 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:07] [BLACKBOX][00:00:52] Distance: 168
+[2025-08-18 16:35:07] [BLACKBOX][00:00:52] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:08] [BLACKBOX][00:00:52] Servo moving up stopped
+[2025-08-18 16:35:08] [BLACKBOX][00:00:52] Servo moving up started
+[2025-08-18 16:35:08] [BLACKBOX][00:00:52] Servo moving up stopped
+[2025-08-18 16:35:08] [BLACKBOX][00:00:53] Slope: -1.04 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:08] [BLACKBOX][00:00:53] Distance: 64
+[2025-08-18 16:35:09] [BLACKBOX][00:00:54] Slope: -0.96 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:09] [BLACKBOX][00:00:54] Distance: 64
+[2025-08-18 16:35:09] [BLACKBOX][00:00:54] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:10] [BLACKBOX][00:00:55] Slope: -0.99 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:10] [BLACKBOX][00:00:55] Distance: 65
+[2025-08-18 16:35:11] [BLACKBOX][00:00:55] Servo 2 moving up started
+[2025-08-18 16:35:11] [BLACKBOX][00:00:56] Slope: -0.94 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:11] [BLACKBOX][00:00:56] Distance: 53
+[2025-08-18 16:35:12] [BLACKBOX][00:00:56] Servo 2 moving up stopped
+[2025-08-18 16:35:12] [BLACKBOX][00:00:56] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:13] [BLACKBOX][00:00:57] Slope: -0.94 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:13] [BLACKBOX][00:00:57] Distance: 64
+[2025-08-18 16:35:13] [BLACKBOX][00:00:57] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:13] [BLACKBOX][00:00:58] Slope: -1.05 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:13] [BLACKBOX][00:00:58] Distance: 66
+[2025-08-18 16:35:14] [BLACKBOX][00:00:58] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:14] [BLACKBOX][00:00:59] Servo 2 moving up started
+[2025-08-18 16:35:14] [BLACKBOX][00:00:59] Slope: -0.93 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:14] [BLACKBOX][00:00:59] Distance: 65
+[2025-08-18 16:35:15] [BLACKBOX][00:00:59] Servo 2 moving up stopped
+[2025-08-18 16:35:15] [BLACKBOX][00:00:59] Servo 2 moving down started
+[2025-08-18 16:35:15] [BLACKBOX][00:00:59] Servo 2 moving down stopped
+[2025-08-18 16:35:15] [BLACKBOX][00:00:00] Servo 2 moving down started
+[2025-08-18 16:35:16] [BLACKBOX][00:00:00] Slope: -0.92 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:16] [BLACKBOX][00:00:00] Distance: 65
+[2025-08-18 16:35:16] [BLACKBOX][00:00:00] Servo 2 moving down stopped
+[2025-08-18 16:35:17] [BLACKBOX][00:00:00] Servo 2 moving down started
+[2025-08-18 16:35:17] [BLACKBOX][00:00:01] Servo 2 moving down stopped
+[2025-08-18 16:35:17] [BLACKBOX][00:00:01] Slope: -1.16 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:17] [BLACKBOX][00:00:01] Servo 2 moving up started
+[2025-08-18 16:35:18] [BLACKBOX][00:00:01] Distance: 93
+[2025-08-18 16:35:18] [BLACKBOX][00:00:01] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:18] [BLACKBOX][00:00:01] Servo 2 moving up stopped
+[2025-08-18 16:35:18] [BLACKBOX][00:00:01] Servo 2 moving up started
+[2025-08-18 16:35:18] [BLACKBOX][00:00:02] Servo 2 moving up stopped
+[2025-08-18 16:35:19] [BLACKBOX][00:00:02] Slope: -0.96 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:19] [BLACKBOX][00:00:02] Servo 2 moving down started
+[2025-08-18 16:35:19] [BLACKBOX][00:00:02] Distance: 71
+[2025-08-18 16:35:19] [BLACKBOX][00:00:02] Servo 2 moving down stopped
+[2025-08-18 16:35:19] [BLACKBOX][00:00:03] Slope: -0.84 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:19] [BLACKBOX][00:00:03] Distance: 65
+[2025-08-18 16:35:19] [BLACKBOX][00:00:04] Servo 2 moving up started
+[2025-08-18 16:35:19] [BLACKBOX][00:00:04] Servo 2 moving up stopped
+[2025-08-18 16:35:20] [BLACKBOX][00:00:04] Slope: -0.74 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:20] [BLACKBOX][00:00:04] Distance: 69
+[2025-08-18 16:35:20] [BLACKBOX][00:00:04] Servo 2 moving up started
+[2025-08-18 16:35:20] [BLACKBOX][00:00:04] Servo 2 moving up stopped
+[2025-08-18 16:35:20] [BLACKBOX][00:00:05] Servo 2 moving up started
+[2025-08-18 16:35:21] [BLACKBOX][00:00:05] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:21] [BLACKBOX][00:00:05] Slope: -1.08 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:21] [BLACKBOX][00:00:05] Distance: 65
+[2025-08-18 16:35:22] [BLACKBOX][00:00:05] DEBUG: Command received: servo2_ustop
+[2025-08-18 16:35:22] [BLACKBOX][00:00:05] Invalid command! Try again.
+[2025-08-18 16:35:22] [BLACKBOX][00:00:05] Servo 2 moving up started
+[2025-08-18 16:35:23] [BLACKBOX][00:00:06] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:23] [BLACKBOX][00:00:06] Slope: -0.99 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:23] [BLACKBOX][00:00:06] Distance: 166
+[2025-08-18 16:35:23] [BLACKBOX][00:00:06] Servo 2 moving up stopped
+[2025-08-18 16:35:23] [BLACKBOX][00:00:07] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:23] [BLACKBOX][00:00:07] Slope: -0.87 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:24] [BLACKBOX][00:00:07] Distance: 999
+[2025-08-18 16:35:24] [BLACKBOX][00:00:08] Slope: -1.02 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:24] [BLACKBOX][00:00:08] Distance: 167
+[2025-08-18 16:35:24] [BLACKBOX][00:00:08] Servo 2 moving up started
+[2025-08-18 16:35:24] [BLACKBOX][00:00:08] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:25] [BLACKBOX][00:00:09] Servo 2 moving up stopped
+[2025-08-18 16:35:25] [BLACKBOX][00:00:09] Servo 2 moving up started
+[2025-08-18 16:35:25] [BLACKBOX][00:00:09] Servo 2 moving up stopped
+[2025-08-18 16:35:25] [BLACKBOX][00:00:09] Slope: -0.93 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:25] [BLACKBOX][00:00:09] Distance: 999
+[2025-08-18 16:35:26] [BLACKBOX][00:00:10] Slope: -0.91 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:26] [BLACKBOX][00:00:10] Distance: 65
+[2025-08-18 16:35:26] [BLACKBOX][00:00:10] Servo 2 moving down started
+[2025-08-18 16:35:26] [BLACKBOX][00:00:11] Servo 2 moving down stopped
+[2025-08-18 16:35:27] [BLACKBOX][00:00:11] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:27] [BLACKBOX][00:00:11] Servo 2 moving up started
+[2025-08-18 16:35:27] [BLACKBOX][00:00:11] Slope: -1.18 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:27] [BLACKBOX][00:00:11] Distance: 166
+[2025-08-18 16:35:28] [BLACKBOX][00:00:12] Slope: -1.02 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:28] [BLACKBOX][00:00:13] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:28] [BLACKBOX][00:00:13] Distance: 999
+[2025-08-18 16:35:29] [BLACKBOX][00:00:13] Servo 2 moving up stopped
+[2025-08-18 16:35:29] [BLACKBOX][00:00:13] Slope: -0.96 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:29] [BLACKBOX][00:00:14] Distance: 65
+[2025-08-18 16:35:29] [BLACKBOX][00:00:14] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:30] [BLACKBOX][00:00:14] Slope: -0.99 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:30] [BLACKBOX][00:00:15] Distance: 62
+[2025-08-18 16:35:30] [BLACKBOX][00:00:15] Servo 2 moving down started
+[2025-08-18 16:35:31] [BLACKBOX][00:00:15] Slope: -0.96 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:31] [BLACKBOX][00:00:16] Distance: 177
+[2025-08-18 16:35:31] [BLACKBOX][00:00:16] Servo 2 moving down stopped
+[2025-08-18 16:35:31] [BLACKBOX][00:00:16] Servo 2 moving up started
+[2025-08-18 16:35:32] [BLACKBOX][00:00:17] Slope: -1.12 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:32] [BLACKBOX][00:00:17] Distance: 58
+[2025-08-18 16:35:32] [BLACKBOX][00:00:17] Servo 2 moving up stopped
+[2025-08-18 16:35:33] [BLACKBOX][00:00:17] Servo 2 moving down started
+[2025-08-18 16:35:33] [BLACKBOX][00:00:18] Slope: -0.67 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:33] [BLACKBOX][00:00:18] Distance: 54
+[2025-08-18 16:35:33] [BLACKBOX][00:00:18] Servo 2 moving down stopped
+[2025-08-18 16:35:33] [BLACKBOX][00:00:18] Servo 2 moving up started
+[2025-08-18 16:35:34] [BLACKBOX][00:00:19] Slope: -1.02 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:34] [BLACKBOX][00:00:19] Distance: 57
+[2025-08-18 16:35:34] [BLACKBOX][00:00:19] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:35] [BLACKBOX][00:00:20] Slope: -0.90 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:35] [BLACKBOX][00:00:20] Distance: 999
+[2025-08-18 16:35:35] [BLACKBOX][00:00:20] Servo 2 moving up stopped
+[2025-08-18 16:35:36] [BLACKBOX][00:00:21] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:37] [BLACKBOX][00:00:21] Slope: -0.96 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:37] [BLACKBOX][00:00:21] Distance: 53
+[2025-08-18 16:35:37] [BLACKBOX][00:00:22] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:37] [BLACKBOX][00:00:22] Distance: 999
+[2025-08-18 16:35:38] [BLACKBOX][00:00:22] Slope: -0.94 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:38] [BLACKBOX][00:00:23] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:38] [BLACKBOX][00:00:23] Distance: 68
+[2025-08-18 16:35:39] [BLACKBOX][00:00:23] Slope: -0.85 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:39] [BLACKBOX][00:00:23] Servo moving up started
+[2025-08-18 16:35:39] [BLACKBOX][00:00:23] Servo moving up stopped
+[2025-08-18 16:35:39] [BLACKBOX][00:00:24] Distance: 65
+[2025-08-18 16:35:40] [BLACKBOX][00:00:24] Slope: -0.93 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:40] [BLACKBOX][00:00:24] Servo moving down started
+[2025-08-18 16:35:40] [BLACKBOX][00:00:24] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:41] [BLACKBOX][00:00:25] Distance: 65
+[2025-08-18 16:35:41] [BLACKBOX][00:00:25] Slope: -1.02 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:41] [BLACKBOX][00:00:25] Servo moving down stopped
+[2025-08-18 16:35:42] [BLACKBOX][00:00:26] Servo moving up started
+[2025-08-18 16:35:42] [BLACKBOX][00:00:26] Distance: 65
+[2025-08-18 16:35:42] [BLACKBOX][00:00:26] Servo moving up stopped
+[2025-08-18 16:35:42] [BLACKBOX][00:00:26] Slope: -0.87 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:42] [BLACKBOX][00:00:27] Distance: 68
+[2025-08-18 16:35:43] [BLACKBOX][00:00:27] Slope: -0.98 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:43] [BLACKBOX][00:00:27] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:43] [BLACKBOX][00:00:28] Distance: 65
+[2025-08-18 16:35:44] [BLACKBOX][00:00:28] Slope: -0.94 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:44] [BLACKBOX][00:00:28] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:44] [BLACKBOX][00:00:29] Distance: 999
+[2025-08-18 16:35:44] [BLACKBOX][00:00:29] Slope: -0.99 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:45] [BLACKBOX][00:00:30] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:45] [BLACKBOX][00:00:30] Distance: 999
+[2025-08-18 16:35:45] [BLACKBOX][00:00:30] Slope: -0.97 Deg | Forward Speed: 210 | Backward Speed: 210
+[2025-08-18 16:35:46] [BLACKBOX][00:00:31] ⚠️ No echo received from ultrasonic sensor! No obstacle detected or very far away.
+[2025-08-18 16:35:46] [BLACKBOX][00:00:31] Distance: 999
+[2025-08-18 16:35:47] [BLACKBOX][00:00:31] Slope: -0.98 Deg | Forward Speed: 210 | Backward Speed: 210

@@ -1,0 +1,122 @@
+[2025-07-24 22:34:58] Checking folder: ..\FaceCounting
+[2025-07-24 22:34:58] Contents: ['faceBlur.py', 'faceMask.py', 'images', 'logs']
+[2025-07-24 22:34:58] Copied/Updated txt file: ..\FaceCounting\logs\overcrowdAlert.txt to .\baseFiles\overcrowdAlert.txt
+[2025-07-24 22:34:58] Copied new image folder: ..\FaceCounting\images\OvercrowdImages to .\baseImages\OvercrowdImages
+[2025-07-24 22:34:58] Checking folder: ..\FaceRecognition
+[2025-07-24 22:34:58] Contents: ['faceImages', 'faceRecognition.py', 'images', 'logs', 'unAuthorizedFacesLog.txt', 'weights']
+[2025-07-24 22:34:58] Copied/Updated txt file: ..\FaceRecognition\logs\authorizedFacesLog.txt to .\baseFiles\authorizedFacesLog.txt
+[2025-07-24 22:34:58] Copied/Updated txt file: ..\FaceRecognition\logs\authorizedPeopleFaces.txt to .\baseFiles\authorizedPeopleFaces.txt
+[2025-07-24 22:34:58] Copied new image folder: ..\FaceRecognition\images\unAuthorizedPersonnel to .\baseImages\unAuthorizedPersonnel
+[2025-07-24 22:34:58] Checking folder: ..\FaceMaskDetection
+[2025-07-24 22:34:58] Contents: ['best_mobilenetv2_model.keras', 'cameraFaceMask.py', 'dataset', 'faceMaskDetection.py', 'images', 'logs', 'toRGB.py']
+[2025-07-24 22:34:58] Checking folder: ..\FireDetection
+[2025-07-24 22:34:58] Contents: ['calibration_image_sample_data_20x128x128x3_float32.npy', 'coco.names', 'dataset', 'fire.yaml', 'fireDetection.py', 'images', 'logs', 'param_replace.json', 'pruningOnly.py', 'quantizationOnly.py', 'runs', 'trainYolo11n.py', 'yolo11n.pt', 'yolov11n_fire_pruned.pt', 'yolov11n_fire_pruned.pth']
+[2025-07-24 22:34:58] Copied/Updated txt file: ..\FireDetection\logs\fireLog.csv to .\baseFiles\fireLog.csv
+[2025-07-24 22:34:58] Copied new image folder: ..\FireDetection\images\fireImages to .\baseImages\fireImages
+[2025-07-24 22:34:58] Checking folder: ..\ObjectRecognition
+[2025-07-24 22:34:58] Contents: ['coco.names', 'images', 'logs', 'objectRecognition.py', 'yolo11n-seg.pt']
+[2025-07-24 22:34:58] Copied/Updated txt file: ..\ObjectRecognition\logs\knifeDetectionLogs.txt to .\baseFiles\knifeDetectionLogs.txt
+[2025-07-24 22:34:58] Copied new image folder: ..\ObjectRecognition\images\KnifeDetection to .\baseImages\KnifeDetection
+[2025-07-24 22:34:58] Checking folder: ..\PeopleCounting
+[2025-07-24 22:34:58] Contents: ['coco.names', 'images', 'logs', 'peopleCounting.py', 'yolo11n-seg.pt']
+[2025-07-24 22:34:58] Checking folder: ..\PhotoTake
+[2025-07-24 22:34:58] Contents: ['images', 'photoTaking.py']
+[2025-07-24 22:34:58] No logs folder found in ..\PhotoTake
+[2025-07-24 22:34:58] Copied new image folder: ..\PhotoTake\images\Photos to .\baseImages\Photos
+[2025-07-24 22:34:58] Checking folder: ..\VideoTake
+[2025-07-24 22:34:58] Contents: ['images', 'videoRecording.py']
+[2025-07-24 22:34:58] No logs folder found in ..\VideoTake
+[2025-07-24 22:34:58] Copied new image folder: ..\VideoTake\images\Videos to .\baseImages\Videos
+[2025-07-24 22:34:58] Checking folder: ..\PoseEstimation
+[2025-07-24 22:34:58] Contents: ['coco.names', 'images', 'logs', 'poseEstimation.py', 'yolo11n-pose.pt']
+[2025-07-24 22:34:58] Checking folder: ..\PotholeDetection
+[2025-07-24 22:34:58] Contents: ['cleaningDataset.py', 'coco.names', 'dataset', 'deleteUnMatchedFiles.py', 'images', 'logs', 'pothole.yaml', 'potholeDetection.py', 'runs', 'sampleVideo.mp4', 'testPothole.py', 'trainYolo11n.py', 'yolo11n.pt']
+[2025-07-24 22:34:58] Checking folder: ..\QRCodeRecognition
+[2025-07-24 22:34:58] Contents: ['logs', 'QRCodeRec.py']
+[2025-07-24 22:34:58] Copied/Updated txt file: ..\QRCodeRecognition\logs\authorizedPeople.txt to .\baseFiles\authorizedPeople.txt
+[2025-07-24 22:34:58] Copied/Updated txt file: ..\QRCodeRecognition\logs\unAuthorizedPeople.txt to .\baseFiles\unAuthorizedPeople.txt
+[2025-07-24 22:34:58] No images folder found in ..\QRCodeRecognition
+[2025-07-24 22:34:58] Checking folder: ..\UI
+[2025-07-24 22:34:58] Contents: ['flaskServer.py', 'logs', 'Models', 'OllaMa', 'templates']
+[2025-07-24 22:34:58] Copied/Updated txt file: ..\UI\logs\BlackBoxUGV.txt to .\baseFiles\BlackBoxUGV.txt
+[2025-07-24 22:34:58] No images folder found in ..\UI
+[2025-07-24 22:34:58] Process of copy check complete. Waiting 2 minutes...
+[2025-07-24 22:36:58] Checking folder: ..\FaceCounting
+[2025-07-24 22:36:58] Contents: ['faceBlur.py', 'faceMask.py', 'images', 'logs']
+[2025-07-24 22:36:58] Image folder already exists, skipping: .\baseImages\OvercrowdImages
+[2025-07-24 22:36:58] Checking folder: ..\FaceRecognition
+[2025-07-24 22:36:58] Contents: ['faceImages', 'faceRecognition.py', 'images', 'logs', 'unAuthorizedFacesLog.txt', 'weights']
+[2025-07-24 22:36:58] Image folder already exists, skipping: .\baseImages\unAuthorizedPersonnel
+[2025-07-24 22:36:58] Checking folder: ..\FaceMaskDetection
+[2025-07-24 22:36:58] Contents: ['best_mobilenetv2_model.keras', 'cameraFaceMask.py', 'dataset', 'faceMaskDetection.py', 'images', 'logs', 'toRGB.py']
+[2025-07-24 22:36:58] Checking folder: ..\FireDetection
+[2025-07-24 22:36:58] Contents: ['calibration_image_sample_data_20x128x128x3_float32.npy', 'coco.names', 'dataset', 'fire.yaml', 'fireDetection.py', 'images', 'logs', 'param_replace.json', 'pruningOnly.py', 'quantizationOnly.py', 'runs', 'trainYolo11n.py', 'yolo11n.pt', 'yolov11n_fire_pruned.pt', 'yolov11n_fire_pruned.pth']
+[2025-07-24 22:36:58] Image folder already exists, skipping: .\baseImages\fireImages
+[2025-07-24 22:36:58] Checking folder: ..\ObjectRecognition
+[2025-07-24 22:36:58] Contents: ['coco.names', 'images', 'logs', 'objectRecognition.py', 'yolo11n-seg.pt']
+[2025-07-24 22:36:58] Image folder already exists, skipping: .\baseImages\KnifeDetection
+[2025-07-24 22:36:58] Checking folder: ..\PeopleCounting
+[2025-07-24 22:36:58] Contents: ['coco.names', 'images', 'logs', 'peopleCounting.py', 'yolo11n-seg.pt']
+[2025-07-24 22:36:58] Checking folder: ..\PhotoTake
+[2025-07-24 22:36:58] Contents: ['images', 'photoTaking.py']
+[2025-07-24 22:36:58] No logs folder found in ..\PhotoTake
+[2025-07-24 22:36:58] Image folder already exists, skipping: .\baseImages\Photos
+[2025-07-24 22:36:58] Checking folder: ..\VideoTake
+[2025-07-24 22:36:58] Contents: ['images', 'videoRecording.py']
+[2025-07-24 22:36:58] No logs folder found in ..\VideoTake
+[2025-07-24 22:36:58] Image folder already exists, skipping: .\baseImages\Videos
+[2025-07-24 22:36:58] Checking folder: ..\PoseEstimation
+[2025-07-24 22:36:58] Contents: ['coco.names', 'images', 'logs', 'poseEstimation.py', 'yolo11n-pose.pt']
+[2025-07-24 22:36:58] Checking folder: ..\PotholeDetection
+[2025-07-24 22:36:58] Contents: ['cleaningDataset.py', 'coco.names', 'dataset', 'deleteUnMatchedFiles.py', 'images', 'logs', 'pothole.yaml', 'potholeDetection.py', 'runs', 'sampleVideo.mp4', 'testPothole.py', 'trainYolo11n.py', 'yolo11n.pt']
+[2025-07-24 22:36:58] Checking folder: ..\QRCodeRecognition
+[2025-07-24 22:36:58] Contents: ['logs', 'QRCodeRec.py']
+[2025-07-24 22:36:58] No images folder found in ..\QRCodeRecognition
+[2025-07-24 22:36:58] Checking folder: ..\UI
+[2025-07-24 22:36:58] Contents: ['flaskServer.py', 'logs', 'Models', 'OllaMa', 'templates']
+[2025-07-24 22:36:58] No images folder found in ..\UI
+[2025-07-24 22:36:58] Process of copy check complete. Waiting 2 minutes...
+[2025-07-24 22:38:11] Received exit signal. Shutting down gracefully...
+[2025-07-25 02:11:22] Checking folder: ..\FaceCounting
+[2025-07-25 02:11:22] Contents: ['faceBlur.py', 'faceMask.py', 'images', 'logs']
+[2025-07-25 02:11:22] Image folder already exists, skipping: .\baseImages\OvercrowdImages
+[2025-07-25 02:11:22] Checking folder: ..\FaceRecognition
+[2025-07-25 02:11:22] Contents: ['faceImages', 'faceRecognition.py', 'images', 'logs', 'unAuthorizedFacesLog.txt', 'weights']
+[2025-07-25 02:11:22] Image folder already exists, skipping: .\baseImages\unAuthorizedPersonnel
+[2025-07-25 02:11:22] Checking folder: ..\FaceMaskDetection
+[2025-07-25 02:11:22] Contents: ['best_mobilenetv2_model.keras', 'cameraFaceMask.py', 'dataset', 'faceMaskDetection.py', 'images', 'logs', 'toRGB.py']
+[2025-07-25 02:11:22] Checking folder: ..\FireDetection
+[2025-07-25 02:11:22] Contents: ['calibration_image_sample_data_20x128x128x3_float32.npy', 'coco.names', 'dataset', 'fire.yaml', 'fireDetection.py', 'images', 'logs', 'param_replace.json', 'pruningOnly.py', 'quantizationOnly.py', 'runs', 'trainYolo11n.py', 'yolo11n.pt', 'yolov11n_fire_pruned.pt', 'yolov11n_fire_pruned.pth']
+[2025-07-25 02:11:22] Copied/Updated txt file: ..\FireDetection\logs\fireLog.csv to .\baseFiles\fireLog.csv
+[2025-07-25 02:11:22] Image folder already exists, skipping: .\baseImages\fireImages
+[2025-07-25 02:11:22] Checking folder: ..\SensorFusionSuite
+[2025-07-25 02:11:22] Contents: ['images', 'logs', 'sensorFusion.py']
+[2025-07-25 02:11:22] Copied/Updated txt file: ..\SensorFusionSuite\logs\fireDetection.csv to .\baseFiles\fireDetection.csv
+[2025-07-25 02:11:22] Copied/Updated txt file: ..\SensorFusionSuite\logs\sensorFusion.txt to .\baseFiles\sensorFusion.txt
+[2025-07-25 02:11:22] Copied new image folder: ..\SensorFusionSuite\images\sensorFusionImages to .\baseImages\sensorFusionImages
+[2025-07-25 02:11:22] Checking folder: ..\ObjectRecognition
+[2025-07-25 02:11:22] Contents: ['coco.names', 'images', 'logs', 'objectRecognition.py', 'yolo11n-seg.pt']
+[2025-07-25 02:11:22] Image folder already exists, skipping: .\baseImages\KnifeDetection
+[2025-07-25 02:11:22] Checking folder: ..\PeopleCounting
+[2025-07-25 02:11:22] Contents: ['coco.names', 'images', 'logs', 'peopleCounting.py', 'yolo11n-seg.pt']
+[2025-07-25 02:11:22] Checking folder: ..\PhotoTake
+[2025-07-25 02:11:22] Contents: ['images', 'photoTaking.py']
+[2025-07-25 02:11:22] No logs folder found in ..\PhotoTake
+[2025-07-25 02:11:22] Image folder already exists, skipping: .\baseImages\Photos
+[2025-07-25 02:11:22] Checking folder: ..\VideoTake
+[2025-07-25 02:11:22] Contents: ['images', 'videoRecording.py']
+[2025-07-25 02:11:22] No logs folder found in ..\VideoTake
+[2025-07-25 02:11:22] Image folder already exists, skipping: .\baseImages\Videos
+[2025-07-25 02:11:22] Checking folder: ..\PoseEstimation
+[2025-07-25 02:11:22] Contents: ['coco.names', 'images', 'logs', 'poseEstimation.py', 'yolo11n-pose.pt']
+[2025-07-25 02:11:22] Checking folder: ..\PotholeDetection
+[2025-07-25 02:11:22] Contents: ['cleaningDataset.py', 'coco.names', 'dataset', 'deleteUnMatchedFiles.py', 'images', 'logs', 'pothole.yaml', 'potholeDetection.py', 'runs', 'sampleVideo.mp4', 'testPothole.py', 'trainYolo11n.py', 'yolo11n.pt']
+[2025-07-25 02:11:22] Checking folder: ..\QRCodeRecognition
+[2025-07-25 02:11:22] Contents: ['logs', 'QRCodeRec.py']
+[2025-07-25 02:11:22] No images folder found in ..\QRCodeRecognition
+[2025-07-25 02:11:22] Checking folder: ..\UI
+[2025-07-25 02:11:22] Contents: ['flaskServer.py', 'logs', 'Models', 'OllaMa', 'templates']
+[2025-07-25 02:11:23] Copied/Updated txt file: ..\UI\logs\BlackBoxUGV.txt to .\baseFiles\BlackBoxUGV.txt
+[2025-07-25 02:11:23] No images folder found in ..\UI
+[2025-07-25 02:11:23] Process of copy check complete. Waiting 2 minutes...
+[2025-07-25 02:11:26] Received exit signal. Shutting down gracefully...

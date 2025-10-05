@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganache Log Viewer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+        }
+    </style>
+</head>
+<body class="p-6 md:p-10 flex flex-col items-center min-h-screen">
+
+    <div id="app" class="w-full max-w-4xl bg-white shadow-xl rounded-lg p-6 md:p-8">
+
+        <!-- Header -->
+        <header class="text-center mb-8">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-2">Transaction Log Viewer</h1>
+            <p class="text-gray-500">
+                Connects to a local Ganache node to display logs from your smart contract.
+            </p>
+        </header>
+
+        <!-- Configuration Form -->
+        <div class="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-8">
+            <h2 class="text-lg font-semibold text-gray-700 mb-4">Configuration</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <label for="rpcUrl" class="block text-sm font-medium text-gray-700">Ganache RPC URL</label>
+                    <input type="text" id="rpcUrl" value="http://127.0.0.1:7545" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2 border">
+                </div>
+                <div>
+                    <label for="contractAddress" class="block text-sm font-medium text-gray-700">Contract Address</label>
+                    <input type="text" id="contractAddress" placeholder="0x..." class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2 border">
+                </div>
+                <div class="md:col-span-2">
+                    <label for="abiTextarea" class="block text-sm font-medium text-gray-700">Contract ABI (JSON)</label>
+                    <textarea id="abiTextarea" rows="4" placeholder="Paste your contract ABI here..." class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2 border"></textarea>
+                </div>
+            </div>
+            <div class="flex justify-center mt-6">
+                <button id="fetchButton" class="bg-indigo-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-colors">
+                    Fetch Logs
+                </button>
+            </div>
+        </div>
+
+        <!-- Log Display -->
+        <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
+            <h2 class="text-lg font-semibold text-gray-700 mb-4">Transaction Logs</h2>
+            <div id="logsContainer" class="space-y-4">
+                <p id="message" class="text-gray-500 text-center">Enter your details above and click "Fetch Logs" to view them.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Web3.js and Logic -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.5.0/web3.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const rpcUrlInput = document.getElementById('rpcUrl');
+            const contractAddressInput = document.getElementById('contractAddress');
+            const abiTextarea = document.getElementById('abiTextarea');
+            const fetchButton = document.getElementById('fetchButton');
+            const logsContainer = document.getElementById('logsContainer');
+            const message = document.getElementById('message');
+
+            fetchButton.addEventListener('click', fetchLogs);
+
+            async function fetchLogs() {
+                // Clear previous messages and logs
+                message.textContent = 'Fetching logs...';
+                logsContainer.innerHTML = '';
+
+                const rpcUrl = rpcUrlInput.value;
+                const contractAddress = contractAddressInput.value;
+                let abi;
+
+                if (!contractAddress || !rpcUrl) {
+                    message.textContent = 'Please provide both the RPC URL and the contract address.';
+                    return;
+                }
+
+                try {
+                    abi = JSON.parse(abiTextarea.value);
+                } catch (e) {
+                    message.textContent = 'Invalid ABI. Please ensure it is valid JSON.';
+                    return;
+                }
+
+                try {
+                    // Initialize Web3
+                    const web3 = new Web3(new Web3.providers.HttpProvider(rpcUrl));
+
+                    // Create contract instance
+                    const contract = new web3.eth.Contract(abi, contractAddress);
+
+                    // Call the 'getLogs' function from the smart contract
+                    // This assumes the contract has a function named 'getLogs'
+                    // that returns the array of structs.
+                    const logs = await contract.methods.getLogs().call();
+
+                    if (logs.length === 0) {
+                        message.textContent = 'No logs found.';
+                    } else {
+                        // Clear the message and render the logs
+                        message.textContent = '';
+                        logs.forEach((log, index) => {
+                            const logDiv = document.createElement('div');
+                            logDiv.className = 'bg-white shadow-sm border border-gray-200 rounded-lg p-4 transition-transform transform hover:scale-[1.01]';
+                            logDiv.innerHTML = `
+                                <h3 class="text-md font-semibold text-indigo-600 mb-2">Log #${index + 1}</h3>
+                                <p class="text-gray-700"><strong class="font-medium">Timestamp:</strong> ${new Date(parseInt(log.timestamp) * 1000).toLocaleString()}</p>
+                                <p class="text-gray-700"><strong class="font-medium">Face Label:</strong> ${log.faceLabel}</p>
+                                <p class="text-gray-700"><strong class="font-medium">Confidence:</strong> ${log.confidence}%</p>
+                            `;
+                            logsContainer.appendChild(logDiv);
+                        });
+                    }
+
+                } catch (error) {
+                    console.error('Error fetching logs:', error);
+                    message.textContent = `Error fetching logs. Make sure Ganache is running and your contract address and ABI are correct. Error: ${error.message}`;
+                }
+            }
+        });
+    </script>
+</body>
+</html>

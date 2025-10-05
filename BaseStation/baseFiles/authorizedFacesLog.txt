@@ -1,0 +1,4 @@
+2025-07-22 01:02:50 - Authorized face recognized: Endri
+2025-07-22 02:10:01 - Authorized face recognized: Endri
+2025-07-22 15:48:26 - Authorized face recognized: Endri
+2025-07-22 15:48:43 - Authorized face recognized: Donald Trump

@@ -1,0 +1,8 @@
+2025-07-22 01:02:50 - Authorized face recognized: Endri
+2025-07-22 02:10:01 - Authorized face recognized: Endri
+2025-07-22 15:48:26 - Authorized face recognized: Endri
+2025-07-22 15:48:43 - Authorized face recognized: Donald Trump
+2025-08-08 11:39:27 - Authorized face recognized: Endri
+2025-08-08 11:40:41 - Authorized face recognized: Donald Trump
+2025-08-08 11:41:27 - Authorized face recognized: Professor PapaIoannou
+2025-08-21 04:57:49 - Authorized face recognized: Endri

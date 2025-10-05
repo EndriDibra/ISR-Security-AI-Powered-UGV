@@ -1,0 +1,263 @@
+{ "intents": [
+
+
+        { "tag": "Greeting_1",
+          "patterns": ["Hello", "Hey", "Hi", "Hi there", "How are you", "Good day", "Is anyone there ?"],
+          "responses": ["Hello! How can I help you ?", "Hi there! How can I help you ?", "Good to see you! How can I help you ?", "Welcome! How can I help you ?", "Hi and welcome to our community! How can I help you ?"],
+          "context": [""]
+        },
+
+
+        { "tag": "Greeting_2",
+          "patterns": ["How you doing?", "How are you?", "What's up?", "Hello how are you?"],
+          "responses": ["Amazing, thanks for asking! How can I help you ?", "Totally fine! How can i help you ?"],
+          "context": [""]
+        },
+
+
+        { "tag": "Farewell",
+          "patterns": ["Goodbye", "Bye", "See you", "See you again", "See you later", "Nice chatting to you, bye", "Till next time", "Have a nice day"],
+          "responses": ["See you!", "Have a nice day!", "Bye! Come back again when you need us :)"],
+          "context": [""]
+        },
+
+
+        { "tag": "Thanks",
+          "patterns": ["Thank you", "Thanks", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Nice", "Ok"],
+          "responses": ["Always happy to help you!", "Any time!", "My pleasure!"],
+          "context": [""]
+        },
+
+
+        { "tag": "Name",
+          "patterns": ["Who are you?", "What is your name?", "What should I call you?", "Do you have a name?", "Your name please", "Your name?", "Name?"],
+          "responses": ["Nice to meet you! I'm Friday, your uni guide.", "Hey! I'm Friday, your uni guide.", "Hello! I am Friday, your uni guide.", "Nice to meet you! I am Friday, your uni guide."],
+          "context": [""]
+        },
+
+
+        { "tag": "About",
+          "patterns": ["What do you provide", "What do you do?", "Help", "Help me", "How you could help me?", "What help you provide?", "How you can be helpful?", "About you?"],
+          "responses": ["Hello! I can help by providing you info about our department.", "Welcome! I can provide you info related to our department.", "Hi! I am your university guide. I can provide you useful info about our department."],
+          "context": [""]
+        },
+
+
+        { "tag": "Help",
+          "patterns": ["Help", "Help me", "I need help", "Assistance", "I need your assistance"],
+          "responses": ["Hello! How can i help you ?", "Welcome! How can i help you ?"],
+          "context": [""]
+        },
+
+
+        { "tag": "Social_Media",
+          "patterns": ["Do you have social media?", "Social media?", "Do you have Facebook account?", "Facebook?"],
+          "responses": ["Yes! We have our Facebook page. Link: https://www.facebook.com/dind.uoa.gr"],
+          "context": [""]
+        },
+
+
+        { "tag": "Video",
+          "patterns": ["Video?", "Do you have a video?", "Department's video?", "Any video?"],
+          "responses": ["Yes, we have our department's video. Link: https://youtu.be/cLI5X4xH-wo"],
+          "context": [""]
+        },
+
+
+        { "tag": "Main_Websites",
+          "patterns": ["Website?", "Websites?", "Whats is your website?", "What are your websites?"],
+          "responses": ["University site: https://en.uoa.gr/ and  Department site: https://www.dind.uoa.gr/"],
+          "context": [""]
+        },
+
+
+        { "tag": "Department_Presentation",
+          "patterns": ["Department presentation?", "What about the department?", "Department view?"],
+          "responses": ["We are a digital tech - based department. More info: https://www.dind.uoa.gr/tmima/ and for high-school students info: https://www.dind.uoa.gr/spoydes/gia_mathites_lykeioy/"],
+          "context": [""]
+        },
+
+
+        { "tag": "Announcements",
+          "patterns": ["Announcement?", "I want the announcements", "Where are the announcements?"],
+          "responses": ["Announcements info: https://www.dind.uoa.gr/anakoinoseis_kai_ekdiloseis/"],
+          "context": [""]
+        },
+
+
+        { "tag": "Studies",
+          "patterns": ["Studies", "I want the studies", "I need the studies", "Studies info"],
+          "responses": ["Info for studies: https://www.dind.uoa.gr/spoydes/proptychiakes/programma_spoydon/"],
+          "context": [""]
+        },
+
+
+        { "tag": "Master",
+          "patterns": ["Master", "Master info", "What about Master", "Postgraduate", "Postgraduate program"],
+          "responses": ["Currently the department do not provide master degrees. More info for Master studies: https://www.uoa.gr/spoydes/metaptychiakes_spoydes/"],
+          "context": [""]
+        },
+
+
+        { "tag": "ERASMUS",
+          "patterns": ["Erasmus", "Erasmus info", "What about Erasmus"],
+          "responses": ["Info for Erasmus: https://www.dind.uoa.gr/spoydes/erasmus/"],
+          "context": [""]
+        },
+
+
+        { "tag": "Curriculum",
+          "patterns": ["Curriculum", "Curriculum info", "What about curriculum", "I want the curriculum"],
+          "responses": ["Info for Curriculum: https://www.dind.uoa.gr/spoydes/proptychiakes/mathimata/"],
+          "context": [""]
+        },
+
+
+        { "tag": "Future_Career",
+          "patterns": ["Future", "Future info", "What about Future", "Career", "Career perspectives", "Job", "Jobs", "What can i become?"],
+          "responses": ["Info for future career: https://www.dind.uoa.gr/spoydes/epaggelmatikes_prooptikes_apofoiton/ "],
+          "context": [""]
+        },
+
+
+        { "tag": "Schedule",
+          "patterns": ["Schedule", "Schedule info", "What about Schedule", "Give me the schedule", "i want the schedule"],
+          "responses": ["Info for uni schedule: https://www.dind.uoa.gr/spoydes/orologio_programma/ "],
+          "context": [""]
+        },
+
+
+        { "tag": "Staff",
+          "patterns": ["Staff", "Staff info", "What about Staff", "Professors", "Teachers"],
+          "responses": ["Info for uni staff: https://www.dind.uoa.gr/prosopiko/ "],
+          "context": [""]
+        },
+
+
+        { "tag": "Communication",
+          "patterns": ["Communication", "Communication info", "What about communication", "How to communicate?"],
+          "responses": ["Info for communication: https://www.dind.uoa.gr/epikoinonia_kai_prosbasi/ "],
+          "context": [""]
+        },
+
+
+        { "tag": "E-class",
+          "patterns": ["e-class", "eclass", "Where can i find my courses", "Where to login for e-class"],
+          "responses": ["To login you will need your username and password. e-class login: https://eclass.uoa.gr/ "],
+          "context": [""]
+        },
+
+        { "tag": "Books",
+          "patterns": ["Books", "Books info", "What about books", "Where can i take my books", "Eudoksos", "Evdoksos", "Ebdoksos"],
+          "responses": ["Info for Books: https://www.dind.uoa.gr/ypiresies/eydoxos/ Also books are free. "],
+          "context": [""]
+        },
+
+
+        { "tag": "Admission",
+          "patterns": ["Admission", "Admission info", "What about Admission"],
+          "responses": ["Students studying in Greece in order to be accepted, need to be on the second or fourth sector and to achieve the minimum points at the final exams(Panellinies)"],
+          "context": [""]
+        },
+
+
+        { "tag": "Grades",
+          "patterns": ["Grades", "Grades info", "What about Grades", "Where are my grades?", "Find grades", "Where can i find my grades"],
+          "responses": [ "Login to Mystudies(site) and use your username and password: https://my-studies.uoa.gr/Secr3w/connect.aspx "],
+          "context": [""]
+        },
+
+
+        { "tag": "Web_Email",
+          "patterns": ["web email", "email info", "What about email", "university email", "academic email"],
+          "responses": ["Login with your academic email and password: https://webmail.noc.uoa.gr/src/login.php "],
+          "context": [""]
+        },
+
+
+        { "tag": "Foreign_Languages",
+          "patterns": ["Foreign languages", "Languages", "What about languages"],
+          "responses": ["Info for foreign languages: http://www.didaskaleio.uoa.gr/ "],
+          "context": [""]
+        },
+
+
+        { "tag": "Uni_Hub",
+          "patterns": ["Hub", "Hub info", "What about Hub", "University Hub"],
+          "responses": ["Info for uni Hub: https://hub.uoa.gr/ "],
+          "context": [""]
+        },
+
+
+        { "tag": "Digital_Library",
+          "patterns": ["library", "library info", "What about library"],
+          "responses": ["Info for library: https://pergamos.lib.uoa.gr/uoa/dl/frontend/index.html "],
+          "context": [""]
+        },
+
+
+        { "tag": "Registration",
+          "patterns": ["Registration", "Registration info", "What about Registration"],
+          "responses": ["Info for registration: https://www.dind.uoa.gr/spoydes/proptychiakes/archeia_enimerosis_protoeton/ "],
+          "context": [""]
+        },
+
+
+        { "tag": "University_Job_Openings",
+          "patterns": ["University careers", "University job", "University jobs"],
+          "responses": ["Info for university jobs: https://www.dind.uoa.gr/syndesmoi/prokiryxeis/ "],
+          "context": [""]
+        },
+
+
+        { "tag": "Students_with_Disabilities",
+          "patterns": ["students with disabilities", "students with disabilities info", "What about students with disabilities", "disabilities"],
+          "responses": ["Info for students with disabilities: https://www.dind.uoa.gr/ypiresies/monada_prosbasimotitas/ "],
+          "context": [""]
+        },
+
+
+        { "tag": "Regulations",
+          "patterns": ["Regulations", "Regulations info", "What about regulations?" ],
+          "responses": ["Info for regulations: https://www.dind.uoa.gr/tmima/kanonismoi/ "],
+          "context": [""]
+        },
+
+
+        { "tag": "General_Info",
+          "patterns": ["General info", "Info", "What about general info?", "Study info" ],
+          "responses": ["General info: https://www.dind.uoa.gr/spoydes/proptychiakes/ "],
+          "context": [""]
+        },
+
+
+        { "tag": "House_Scholarship",
+          "patterns": ["House", "House info", "What about House?", "House scholarship", "free house", "free home"],
+          "responses": ["Info for house scholarship: https://www.uoa.gr/foitites/paroches_drastiriotites/stegastiko_epidoma/"],
+          "context": [""]
+        },
+
+
+        { "tag": "Library",
+          "patterns": ["Library", "Library info", "What about library?" ],
+          "responses": ["Info for library: https://www.dcarts.uoa.gr/foitites/bibliothiki/ "],
+          "context": [""]
+        },
+
+
+        { "tag": "Free_Food",
+          "patterns": ["free food", "free food info", "What about free food?" ],
+          "responses": ["Info for free food: https://www.dcarts.uoa.gr/foitites/sitisi_stegasi/"],
+          "context": [""]
+        },
+
+
+        { "tag": "Fees",
+          "patterns": ["fees", "fees info", "What about fees?" ],
+          "responses": ["Greek citizens do not pay fees, academia is free. Books are also free."],
+          "context": [""]
+        }
+
+    ]
+
+}

@@ -1,0 +1,17 @@
+2025-07-25 02:09:44 - Anomaly: , Label: fire
+2025-07-25 02:09:45 - Anomaly: , Label: fire
+2025-07-25 02:09:46 - Anomaly: , Label: fire
+2025-07-25 02:09:47 - Anomaly: , Label: fire
+2025-07-25 02:09:48 - Anomaly: , Label: fire
+2025-07-25 02:09:49 - Anomaly: , Label: fire
+2025-07-25 02:09:50 - Anomaly: , Label: fire
+2025-07-25 02:09:51 - Anomaly: , Label: fire
+2025-07-25 02:09:52 - Anomaly: , Label: fire
+2025-07-25 02:09:53 - Anomaly: , Label: fire
+2025-07-25 02:09:54 - Anomaly: , Label: fire
+2025-07-25 02:09:55 - Anomaly: , Label: fire
+2025-07-25 02:09:56 - Anomaly: , Label: fire
+2025-07-25 02:09:57 - Anomaly: , Label: fire
+2025-07-25 02:09:58 - Anomaly: , Label: fire
+2025-07-25 02:09:59 - Anomaly: , Label: fire
+2025-07-25 02:10:00 - Anomaly: , Label: fire
