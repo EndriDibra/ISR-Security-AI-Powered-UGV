@@ -1,4 +1,4 @@
-# Smart-AI-Powered-Security-UGV
+# ISR-AI-Powered-Security-UGV
 This is my BSc Thesis Project, conducted during the summer period (from the beginning of July to the end of August) of 2025 (academic year 2024–2025) by Endri Dibra (myself) under the supervision of Dr. Athanasios Papaioannou, from the University of Athens (NKUA), Department of Digital Industry Technologies.
 
 The project consists of a 3D-printed Ground Robot Vehicle, whose purpose is Intelligence, Surveillance, and Reconnaissance (ISR), as well as ensuring the safety of critical areas such as industrial complexes, warehouses, research labs, intelligence zones, and other similar high-importance locations.
