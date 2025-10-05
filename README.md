@@ -7,6 +7,8 @@ The robot accomplishes its tasks by leveraging state-of-the-art technologies and
 
 A Web UI (Flask and HTML5, CSS3, JS) displays weather and sensor data readings for anomaly detection (e.g., smoke or fire occurrence). The project also implements Federated Learning for tasks such as face recognition, ensuring data isolation and integrity, and enabling the robot to recognize previously unseen faces by sharing only the model’s weights. Additionally, AI model quantization is used for optimization and improved speed (>FPS).
 
-Ultimately, Task Offloading is performed between the Robot UGV (Raspberry Pi 5) and a Server (Dell Laptop), distributing computational tasks based on load to ensure robust and continuous operation without risking overflow or high latency.
+The robot uses an MPU6050 Accelerometer sensor module to strengthen its situational awareness, by knowing if its wheels are touching the ground or if it is tilted left, right, front, back or upside down. Also has a dynamic speed adjustment based on the terrain slope and roughness, ensuring a proper navigation without major risks.
+
+Ultimately, Task Offloading is performed between the Robot UGV (Arduino MEGA and Raspberry Pi 5) and a Server (Dell Laptop), distributing computational tasks based on load to ensure robust and continuous operation without risking overflow or high latency.
 
 This project demonstrates the fascinating outcomes achievable through the integration of multiple modern technologies into a cohesive and intelligent robotic system.
