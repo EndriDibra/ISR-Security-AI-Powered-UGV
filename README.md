@@ -9,6 +9,6 @@ A Web UI (Flask and HTML5, CSS3, JS) displays weather and sensor data readings f
 
 The robot uses an MPU6050 Accelerometer sensor module to strengthen its situational awareness, by knowing if its wheels are touching the ground or if it is tilted left, right, front, back or upside down. Also has a dynamic speed adjustment based on the terrain slope and roughness, ensuring a proper navigation without major risks.
 
-Ultimately, Task Offloading is performed between the Robot UGV (Arduino MEGA and Raspberry Pi 5) and a Server (Dell Laptop), distributing computational tasks based on load to ensure robust and continuous operation without risking overflow or high latency.
+Ultimately, its Task Offloading core intelligence is performed between the Robot UGV (Arduino MEGA and Raspberry Pi 5) and a Server (Dell Laptop), distributing computational tasks based on load to ensure robust and continuous operation without risking overflow or high latency.
 
 This project demonstrates the fascinating outcomes achievable through the integration of multiple modern technologies into a cohesive and intelligent robotic system.
