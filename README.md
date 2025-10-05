@@ -5,7 +5,7 @@ The project consists of a 3D-printed Ground Robot Vehicle, whose purpose is Inte
 
 The robot accomplishes its tasks by leveraging state-of-the-art technologies and techniques, including AI, Machine Learning models for data processing, Natural Language Processing (NLP) tasks such as an AI chatbot, Text-to-Speech (TTS) and Speech-to-Text (STT) systems, Deep Learning Computer Vision using CNN models and object detectors (TensorFlow, Keras, YOLOv11, Transfer Learning, MobileNetV2, MobileNetV3-Light), a Blockchain (Ganache) environment for logging critical events to ensure undeniability, and cryptographic protocols for data security.
 
-A Web UI displays weather and sensor data readings for anomaly detection (e.g., smoke or fire occurrence). The project also implements Federated Learning for tasks such as face recognition, ensuring data isolation and integrity, and enabling the robot to recognize previously unseen faces by sharing only the model’s weights. Additionally, AI model quantization is used for optimization and improved speed (>FPS).
+A Web UI (Flask and HTML5, CSS3, JS) displays weather and sensor data readings for anomaly detection (e.g., smoke or fire occurrence). The project also implements Federated Learning for tasks such as face recognition, ensuring data isolation and integrity, and enabling the robot to recognize previously unseen faces by sharing only the model’s weights. Additionally, AI model quantization is used for optimization and improved speed (>FPS).
 
 Ultimately, Task Offloading is performed between the Robot UGV (Raspberry Pi 5) and a Server (Dell Laptop), distributing computational tasks based on load to ensure robust and continuous operation without risking overflow or high latency.
 
