@@ -1,6 +1,6 @@
 # ISR-Security-AI-Powered-UGV
 
-This repository contains my BSc Thesis Project, developed during the summer of 2025 (academic year 2024–2025) at the Department of Digital Industry Technologies, University of Athens, under the supervision of professor Athanasios PapaIoannou.
+This repository contains my **BSc Thesis Project**, developed during the summer of 2025 (academic year 2024–2025) at the Department of **Digital Industry Technologies**, University of Athens, under the supervision of professor **Athanasios PapaIoannou**.
 
 The project focuses on the design and implementation of an **AI-powered Unmanned Ground Vehicle (UGV)** for **Intelligence, Surveillance, and Reconnaissance (ISR)** missions, with emphasis on protecting critical environments such as industrial facilities, warehouses, laboratories, restricted zones, and other high-value infrastructure.
 
