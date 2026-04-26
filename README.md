@@ -1,6 +1,6 @@
 # ISR-Security-AI-Powered-UGV
 
-This repository contains my BSc Thesis Project, developed during the summer of 2025 (academic year 2024–2025) at the :contentReference[oaicite:0]{index=0}, Department of Digital Industry Technologies, under the supervision of :contentReference[oaicite:1]{index=1}.
+This repository contains my BSc Thesis Project, developed during the summer of 2025 (academic year 2024–2025) at the Department of Digital Industry Technologies, University of Athens, under the supervision of professor Athanasios PapaIoannou.
 
 The project focuses on the design and implementation of an **AI-powered Unmanned Ground Vehicle (UGV)** for **Intelligence, Surveillance, and Reconnaissance (ISR)** missions, with emphasis on protecting critical environments such as industrial facilities, warehouses, laboratories, restricted zones, and other high-value infrastructure.
 
@@ -25,7 +25,7 @@ Its mission objectives include:
 The system is built around a hybrid architecture using:
 
 - **Arduino Mega** for low-level hardware control  
-- :contentReference[oaicite:2]{index=2} **Raspberry Pi 5** for onboard AI inference  
+- **Raspberry Pi 5** for onboard AI inference  
 - Remote server (Dell workstation/laptop) for heavy computation and task offloading  
 
 ---
@@ -37,9 +37,9 @@ The system is built around a hybrid architecture using:
 The UGV integrates multiple AI pipelines:
 
 - Deep Learning Computer Vision  
-- Real-time object detection using :contentReference[oaicite:3]{index=3}  
-- CNN image classification using :contentReference[oaicite:4]{index=4} / :contentReference[oaicite:5]{index=5}  
-- Transfer Learning with :contentReference[oaicite:6]{index=6} and :contentReference[oaicite:7]{index=7}  
+- Real-time object detection 
+- CNN image classification 
+- Transfer Learning  
 - Face recognition systems  
 - People counting and crowd awareness  
 - Fire / smoke detection  
@@ -62,7 +62,7 @@ Human-robot interaction features include:
 
 The platform also includes:
 
-- Blockchain event logging using :contentReference[oaicite:8]{index=8}  
+- Blockchain event logging   
 - Cryptographic communication protocols  
 - Secure telemetry exchange  
 - Evidence-grade incident recording  
