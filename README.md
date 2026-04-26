@@ -26,7 +26,7 @@ The system is built around a hybrid architecture using:
 
 - **Arduino Mega** for low-level hardware control  
 - **Raspberry Pi 5** for onboard AI inference  
-- Remote server (Dell workstation/laptop) for heavy computation and task offloading  
+- **Remote server** (Dell workstation/laptop) for heavy computation and task offloading  
 
 ---
 
