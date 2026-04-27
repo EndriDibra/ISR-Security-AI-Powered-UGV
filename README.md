@@ -1,3 +1,10 @@
+# Author
+
+**Endri Dibra**  
+BSc Thesis Project – Summer 2025
+
+---
+
 # ISR-Security-AI-Powered-UGV
 
 This repository contains my **BSc Thesis Project**, developed during the summer of 2025 (academic year 2024–2025) at the Department of **Digital Industry Technologies**, University of Athens, under the supervision of professor **Athanasios PapaIoannou**.
@@ -208,12 +215,5 @@ Potential next steps:
 - LTE / 5G remote deployment  
 - Autonomous charging dock  
 - Advanced threat prediction models  
-
----
-
-# Author
-
-**Endri Dibra**  
-BSc Thesis Project – Summer 2025
 
 ---
