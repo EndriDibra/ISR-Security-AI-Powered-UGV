@@ -14,7 +14,13 @@ The project focuses on the design and implementation of an **AI-powered Unmanned
 The platform combines robotics, embedded systems, artificial intelligence, cybersecurity, and edge/cloud computing into a unified autonomous security system.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/EndriDibra/ISR-Security-AI-Powered-UGV/main/Photos/robot1.png" width="350" title="ISR Robot">
+  <table>
+    <tr>
+      <td><img src="https://raw.githubusercontent.com/EndriDibra/ISR-Security-AI-Powered-UGV/main/Photos/robot1.png" width="300" title="Robot View 1"></td>
+      <td><img src="https://raw.githubusercontent.com/EndriDibra/ISR-Security-AI-Powered-UGV/main/Photos/robot2.png" width="300" title="Robot View 2"></td>
+      <td><img src="https://raw.githubusercontent.com/EndriDibra/ISR-Security-AI-Powered-UGV/main/Photos/robot3.png" width="300" title="Robot View 3"></td>
+    </tr>
+  </table>
 </p>
 
 ---
