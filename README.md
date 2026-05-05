@@ -16,8 +16,8 @@ The platform combines robotics, embedded systems, artificial intelligence, cyber
 <p align="center">
   <table>
     <tr>
-      <td><img src="https://raw.githubusercontent.com/EndriDibra/ISR-Security-AI-Powered-UGV/main/Photos/robot1.png" width="300" title="Robot View 1"></td>
       <td><img src="https://raw.githubusercontent.com/EndriDibra/ISR-Security-AI-Powered-UGV/main/Photos/robot2.png" width="300" title="Robot View 2"></td>
+      <td><img src="https://raw.githubusercontent.com/EndriDibra/ISR-Security-AI-Powered-UGV/main/Photos/robot1.png" width="300" title="Robot View 1"></td>
       <td><img src="https://raw.githubusercontent.com/EndriDibra/ISR-Security-AI-Powered-UGV/main/Photos/robot3.png" width="300" title="Robot View 3"></td>
     </tr>
   </table>
