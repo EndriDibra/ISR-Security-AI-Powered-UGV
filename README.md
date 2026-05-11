@@ -17,6 +17,8 @@ The name of the Robot is Heimdall, a name inspired from the protector of Asgard,
 
 <h2 align="center">Heimdall</h2>
 
+---
+
 <p align="center">
   <table>
     <tr>
