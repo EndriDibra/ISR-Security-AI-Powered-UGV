@@ -13,6 +13,10 @@ The project focuses on the design and implementation of an **AI-powered Unmanned
 
 The platform combines robotics, embedded systems, artificial intelligence, cybersecurity, and edge/cloud computing into a unified autonomous security system.
 
+The name of the Robot is Heimdall, a name inspired from the protector of Asgard, from the Scandinavian mythology.
+
+<h2 align="center">Heimdall</h2>
+
 <p align="center">
   <table>
     <tr>
