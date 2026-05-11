@@ -25,6 +25,14 @@ The platform combines robotics, embedded systems, artificial intelligence, cyber
 
 ---
 
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/dfd24b82-11f3-4a74-9714-8956b0a4e0fb" controls>
+    <p>Your browser does not support the video tag.</p>
+  </video> 
+</div>
+
+---
+
 # Project Overview
 
 The robot is a custom **3D-printed smart ground vehicle** equipped with onboard sensing, computer vision, secure communications, and autonomous navigation capabilities.
