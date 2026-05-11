@@ -5,7 +5,7 @@ BSc Thesis Project – Summer 2025
 
 ---
 
-# ISR-Security-AI-Powered-UGV
+# ISR-Security-AI-Powered-UGV / Heimdall
 
 This repository contains my **BSc Thesis Project**, developed during the summer of 2025 (academic year 2024–2025) at the Department of **Digital Industry Technologies**, University of Athens, under the supervision of professor **Athanasios PapaIoannou**.
 
@@ -27,6 +27,13 @@ The platform combines robotics, embedded systems, artificial intelligence, cyber
 
 <div align="center">
   <video src="https://github.com/user-attachments/assets/dfd24b82-11f3-4a74-9714-8956b0a4e0fb" controls>
+  </video> 
+</div>
+
+---
+
+<div align="center">
+  <video src= controls>
   </video> 
 </div>
 
